@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "./Header.scss";
+body {
+  //   font-family: "Rajdhani", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000;
+}
+.slider_section {
+  position: relative;
+  padding-top: 104px;
+  .logo-section {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    .container {
+      position: relative;
+      z-index: 99999;
+    }
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      // background: rgba(0, 0, 0, 0.6);
+      background: rgba(2, 51, 70, 0.4);
+    }
+  }
+}
+.awssld__timer {
+  --timer-background-color: rgb(0 173 239) !important;
+}
+.awssld__controls__arrow-left:before,
+.awssld__controls__arrow-left:after,
+.awssld__controls__arrow-right:before,
+.awssld__controls__arrow-right:after {
+  background-color: #00adef !important;
+}
+
+// ABOUT SECTION
+
+.about_section {
+  padding: 80px 0;
+  background: #f5f5f5;
+  h3 {
+    color: #00adef;
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rajdhani", sans-serif;
+}
+.readmore_btn {
+  border: solid 1px #025777;
+  color: #025777;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-block;
+  font-family: "Rajdhani", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 22px;
+  &:hover {
+    background: #025777;
+    color: #fff;
+  }
+  &.white-border {
+    border: solid 1px #fff;
+    color: #fff;
+    &:hover {
+      background-color: #fff;
+      color: #025777;
+    }
+  }
+}
+.inner-banner {
+  padding: 80px 0;
+  background: #ccc url("../images/bg4.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-top: 104px;
+  .container {
+    position: relative;
+    z-index: 99999;
+    color: #fff;
+    h1 {
+      font-family: "Rajdhani", sans-serif;
+      margin: 0;
+      padding: 0;
+      text-transform: uppercase;
+    }
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
+.bread-crumb {
+  background-color: #eee;
+  padding: 15px 0;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      font-weight: 500;
+      font-family: "Rajdhani", sans-serif;
+      font-size: 22px;
+      span {
+        padding: 0 15px;
+      }
+      a {
+        color: #025777;
+        text-decoration: none;
+        font-weight: 400;
+        font-family: "Rajdhani", sans-serif;
+      }
+    }
+  }
+}
+
+//TEAM SECTION
+
+.team-area-3 {
+  background: #3c0378 url("../images/team-bg-1.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+  .section-title-2 {
+    position: relative;
+    z-index: 1;
+    h3 {
+      font-size: 40px;
+      line-height: 50px;
+      font-weight: 600;
+      color: #29282d;
+      padding: 40px 0;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+  }
+  .team-wrap-3 {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    border-radius: 4px;
+    .team-img {
+      position: relative;
+      overflow: hidden;
+      margin-left: auto;
+      margin-right: auto;
+
+      img {
+        width: 100%;
+        -webkit-transition: all 0.3s linear 0s;
+        -moz-transition: all 0.3s linear 0s;
+        -ms-transition: all 0.3s linear 0s;
+        -o-transition: all 0.3s linear 0s;
+        transition: all 0.3s linear 0s;
+      }
+    }
+  }
+  .team-shape-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    img {
+      max-width: 100%;
+      -webkit-transition: all 0.3s linear 0s;
+      -moz-transition: all 0.3s linear 0s;
+      -ms-transition: all 0.3s linear 0s;
+      -o-transition: all 0.3s linear 0s;
+      transition: all 0.3s linear 0s;
+    }
+  }
+  .team-icon-1 {
+    position: absolute;
+    left: 100px;
+    top: 115px;
+  }
+  .team-icon-2 {
+    position: absolute;
+    top: 116px;
+    right: 130px;
+  }
+  .team-icon-3 {
+    position: absolute;
+    right: 140px;
+    bottom: 85px;
+  }
+  .team-icon-4 {
+    position: absolute;
+    left: 120px;
+    bottom: 60px;
+  }
+  .team-content {
+    padding: 20px 0;
+    text-align: center;
+    background: #fff;
+    span {
+      color: #000;
+      font-weight: 500;
+    }
+    h3 {
+      margin-bottom: 0;
+      font-weight: 700;
+      font-size: 24px;
+      a {
+        color: #00adef;
+        text-decoration: none;
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+// Physiotherapy Section
+
+.physiotherapy-section {
+  padding: 80px 0;
+  h1 {
+    color: #00adef;
+  }
+  .info_block {
+    background: #eee;
+    padding: 50px;
+  }
+  .img_block {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    img {
+      position: relative;
+      top: -180px;
+    }
+  }
+}
+// membership_Section
+
+.membership_Section {
+  padding: 80px 0;
+  background: url("../images//home-4-paralax-1.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  p {
+    color: #fff;
+  }
+  ul {
+    li {
+      color: #fff;
+    }
+  }
+  .img_block {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    img {
+      position: relative;
+      top: -120px;
+    }
+  }
+}
+
+// Footer Section
+
+.footer-section {
+  padding: 60px 0;
+  background-color: #203652;
+}
+#site-footer,
+#site-footer p,
+#site-footer a {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+  line-height: 23px;
+  margin: 0;
+  padding: 0;
+}
+#site-footer .main-footer {
+  background: #203652;
+  padding:60px 0;
+}
+#site-footer .footer-widget {
+  margin-bottom: 20px;
+}
+#site-footer .textbox-with-social .widget-title {
+  font-size: 25px;
+}
+#site-footer ul{
+  margin: 0;
+  padding: 0;
+}
+#site-footer ul li{
+  list-style-type: none;
+  a{
+    line-height: 25px;
+    text-decoration: none;
+  }
+}
+#site-footer .widget-title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 25px;
+}
+.main-footer .widget-title {
+  text-transform: none !important;
+}
+.main-footer p,
+.main-footer li a,
+.main-footer input::placeholder {
+  color: #ccc !important;
+}
+.text-with-social .social-wrapper a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+  position: relative;
+  text-indent: -9999em;
+  vertical-align: middle;
+  background: #eee;
+  margin: 5px 5px 0 0;
+  transition: all 0.3s;
+}
+#site-footer .textbox-with-social .social-wrapper a {
+  background: #272727;
+  border-radius: 2px;
+}
+#site-footer .mc4wp-form-fields .input-field {
+  color: #666;
+  background: #0b2342;
+}
+
+.mc4wp-form-fields .input-field {
+  display: block;
+  float: left;
+  width: 75%;
+  border: none;
+  padding: 17px 10px 13px;
+}
+.mc4wp-form-fields .submit, .site-navbar .navbar-item span.cart-items-number, .btn-fullwidth, .quickview, .wishlist-icon button {
+  background: #00adef !important;
+  color: #000 !important;
+}
+
+.mc4wp-form-fields .submit {
+  display: block;
+  float: left;
+  width: 25%;
+  padding: 15px;
+  background: #00adef ;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer-bottom{
+  background-color: #0b2342;
+  padding: 15px 0;
+  p{
+    color: #fff !important;
+  }
+}
