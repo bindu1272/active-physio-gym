@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react';
 import Logo from "../images/logo.svg";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Index() {
   const [scrolled,setScrolled]=React.useState(false);
@@ -51,37 +51,39 @@ function Index() {
                     <ul className="navbar-nav m-auto">
                       <li className="nav-item">
                         <Link
-                          className="nav-link active"
-                          aria-current="page"
+                          // className="nav-link"
+                          exact
+                          activeClassName='selected'
+                          className="nav-link"
                           to="/"
                         >
                           Home
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link" to="AboutUs">
+                        <NavLink  activeClassName='selected' className="nav-link" exact to="/AboutUs">
                           About
-                        </Link>
+                        </NavLink>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link" to="#">
+                        <NavLink activeClassName="selected" className="nav-link" exact to="/Team">
                           Team
-                        </Link>
+                        </NavLink>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link" to="#">
+                        <NavLink activeClassName="selected" className="nav-link" exact to="/Physiotheraphy">
                         Physiotherapy
-                        </Link>
+                        </NavLink>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link" to="#">
+                        <NavLink activeClassName="selected" className="nav-link" exact  to="Membership">
                         Membership
-                        </Link>
+                        </NavLink>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link" to="#">
+                        <NavLink activeClassName="selected" className="nav-link"  exact to="Contact">
                         Contact
-                        </Link>
+                        </NavLink>
                       </li>
                       <li className="nav-item">
                         <Link className="nav-link book_btn" to="#">

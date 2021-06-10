@@ -1,0 +1,101 @@
+@import "../../node_modules/antd/dist/antd.min.css";
+.login-Section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  background: url("../images/bg4.jpg") no-repeat;
+  background-size: cover;
+  &::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    content: "";
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    position: relative;
+    z-index: 9999;
+    .signpages {
+      width: 50%;
+      display: flex;
+      margin: 5em auto;
+      .details {
+        background-color: rgb(135, 197, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+.text-left {
+  text-align: left;
+}
+.ant-form-item-explain.ant-form-item-explain-error {
+  text-align: left;
+}
+.ant-form-item-label > label {
+  font-size: 16px;
+}
+.admin-header {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+.dashboard_section {
+  background-color: #e6ecf2;
+}
+.ant-layout-header {
+  height: auto;
+  color: #000000d9;
+  line-height: 64px;
+  background: #001529;
+  padding: 0;
+  @media (min-width: 992px) {
+    padding: 0 50px;
+    display: flex;
+    padding: 0 15px;
+  }
+}
+.dashboard_section {
+  .logo {
+    height: auto;
+    margin: 0;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding: 0;
+    
+  }
+  .dash_nav {
+    background-color: #203652;
+    .ant-menu-dark.ant-menu-horizontal {
+      background-color: #203652;
+    }
+    @media (max-width: 768px) {
+      .container {
+        max-width: 100%;
+        .col-sm-12 {
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  .site-layout-background {
+    padding: 24px;
+    background: #fff;
+    margin-bottom: 50px;
+  }
+}
+.ant-table{
+    overflow: auto;
+}

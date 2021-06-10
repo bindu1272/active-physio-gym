@@ -49,6 +49,9 @@
             font-family: "Rajdhani", sans-serif;
             padding: 10px 20px;
             text-transform: uppercase;
+            &.selected{
+              color: #00adef;
+            }
             &.book_btn {
               background: #00adef;
               border-radius: 50px;
