@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import { Link } from "react-router-dom";
 
 function Index() {
-  
+
   return (
       <>
       <Header />
@@ -16,7 +16,7 @@ function Index() {
                 </div>
             </div>
         </div>
-       
+
       </section>
       <div className="bread-crumb">
         <div className="container">
@@ -36,7 +36,7 @@ function Index() {
             <div className="row">
                 <div className="col-sm-6">
                     <h3 className="mb-4">Active Physio Gym</h3>
-                    <p>Physiotherapist care for your injuries and train with you to strengthen your body.</p>
+                    <p>Active Physio Gym care for your injuries and train with you to strengthen your body.</p>
                     <p>Our hands on care guides your awareness into how troubled muscles, nerves, elastic tissue or joints may be causing you pain and restricting your movements.</p>
                     <p>We understand that for many people exercising is not easy. We work with you individually and in classes for you to learn your program, feel safe and keep motivated. With a Physio Gym 24/7 membership you can discover the potential of your exercises to change your life.</p>
                     <a href="#" className="readmore_btn mt-4">Read More</a>

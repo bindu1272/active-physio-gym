@@ -22,7 +22,7 @@ function Index() {
                 <div className="col-sm-8">
                   <Link to="/" className="logo">
                     <img src={Logo} style={{ height: 35, marginRight: 15 }} />
-                    ActivePhysioGym
+                    Active Physio Gym
                   </Link>
                 </div>
                 <div className="col-sm-4 text-end">
@@ -60,7 +60,7 @@ function Index() {
                 </div>
               </div>
             </div>
-           
+
           </nav>
       </section>
     </>
