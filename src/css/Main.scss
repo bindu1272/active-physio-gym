@@ -401,6 +401,31 @@ h6 {
     color: #fff !important;
   }
 }
+
+.info-msg,
+.success-msg,
+.warning-msg,
+.error-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  width: 100%;
+}
+.success-msg {
+  color: #270;
+  background-color: #DFF2BF;
+}
+.error-msg {
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+
+.success{
+  display: flex;
+  box-shadow: red;
+  text:'white'
+}
+
 .contact_page_section {
   background-color: #f1f6fc;
   padding: 50px 0;
