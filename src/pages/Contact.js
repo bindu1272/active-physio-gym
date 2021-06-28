@@ -50,14 +50,15 @@ function Index() {
             }
 
         });
-        flag = true;
-        form.resetFields();
+
+
         if (!flag) {
             setLoading(true);
             values['type'] = 'five';
             coreApi.post('/email/send', values).then((response) => {
                 console.log('response is', response)
                 setLoading(false);
+                form.resetFields();
                 setSuccess('Your request has been received, we will contact you soon');
                 setError('')
             }).catch((err) => {
