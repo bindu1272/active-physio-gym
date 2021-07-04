@@ -54,7 +54,7 @@ function Index() {
 
         if (!flag) {
             setLoading(true);
-            values['type'] = 'five';
+            values['type'] = 'activeGym';
             coreApi.post('/email/send', values).then((response) => {
                 console.log('response is', response)
                 setLoading(false);

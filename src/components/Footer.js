@@ -27,11 +27,11 @@ Email: info@activephysiogym.net.au</p>
 		</div>				</div>
 
 				<div class="col-sm-6 col-md-3 clearfix">
-					<div id="nav_menu-2" class="footer-widget widget_nav_menu"><h4 class="widget-title"><span>Quick Links</span></h4><div class="menu-quick-links-container"><ul id="menu-quick-links" class="menu"><li id="menu-item-1735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1735"><a href="http://myphysiogym.com/Application#/home">Exercise Login</a></li>
-<li id="menu-item-1736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1736"><a href="https://physiogym.net.au/patients">New Member Form</a></li>
-<li id="menu-item-1732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1732"><a href="https://physiogym.net.au/wp-content/uploads/2021/01/PG®P_Etiquette_A4_4.pdf">Rules &amp; Etiquette</a></li>
-<li id="menu-item-1731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1731"><a href="https://physiogym.net.au/wp-content/uploads/2021/01/Privacy-Policy-Jan2020.pdf">Privacy Policy</a></li>
-<li id="menu-item-1733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1733"><a href="https://physiogym.net.au/terms-agreement">Membership Terms</a></li>
+					<div id="nav_menu-2" class="footer-widget widget_nav_menu"><h4 class="widget-title"><span>Quick Links</span></h4><div class="menu-quick-links-container"><ul id="menu-quick-links" class="menu"><li id="menu-item-1735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1735"><a href="#">Exercise Login</a></li>
+<li id="menu-item-1736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1736"><a href="#">New Member Form</a></li>
+<li id="menu-item-1732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1732"><a href="#">Rules &amp; Etiquette</a></li>
+<li id="menu-item-1731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1731"><a href="#">Privacy Policy</a></li>
+<li id="menu-item-1733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1733"><a href="#">Membership Terms</a></li>
 </ul></div></div>				</div>
 
 				<div class="col-sm-6 col-md-3 clearfix">
