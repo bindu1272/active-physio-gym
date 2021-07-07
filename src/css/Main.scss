@@ -1,19 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 @import "./Header.scss";
 @import "../admin/style.scss";
 @import "./font-awesome.css";
 body {
   //   font-family: "Rajdhani", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  // font-family: "Poppins", sans-serif;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 18px;
   line-height: 28px;
+  font-weight: 300;
   color: #000;
 }
 .slider_section {
   position: relative;
-  padding-top: 104px;
+  // padding-top: 104px;
   .logo-section {
     position: absolute;
     width: 100%;
@@ -27,6 +31,21 @@ body {
     .container {
       position: relative;
       z-index: 99999;
+      h1{
+        color: #00adef;
+        font-size: 120px;
+       font-weight: 600;
+       letter-spacing: 5px;
+        font-family: "Rajdhani", sans-serif;
+      }
+      h4{
+        color: #fff;
+        font-size: 50px;
+        margin-bottom: 50px;
+        line-height: normal;
+        letter-spacing: 5px;
+        font-weight: 600;
+      }
     }
     &:after {
       content: "";
@@ -69,18 +88,26 @@ h4,
 h5,
 h6 {
   font-family: "Rajdhani", sans-serif;
+  font-size: 38px;
+    line-height: 48px;
+    font-weight: normal;
+    font-style: normal;
 }
 .readmore_btn {
   border: solid 1px #025777;
   color: #025777;
   padding: 10px 30px;
   text-decoration: none;
-  border-radius: 50px;
-  display: inline-block;
+  // border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
   font-family: "Rajdhani", sans-serif;
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 22px;
+  i{
+    margin-left: 10px;
+  }
   &:hover {
     background: #025777;
     color: #fff;
@@ -95,12 +122,11 @@ h6 {
   }
 }
 .inner-banner {
-  padding: 50px 0;
+  padding: 150px 0 50px 0;
   background: #ccc url("../images/bg4.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
   position: relative;
-  margin-top: 104px;
   .container {
     position: relative;
     z-index: 9;
@@ -144,6 +170,17 @@ h6 {
         font-family: "Rajdhani", sans-serif;
       }
     }
+  }
+}
+
+// Main Page About Info
+
+.main-about-info{
+  .img-fluid{
+    box-shadow: -15px 15px 0#00adef;
+  }
+  h3{
+    text-transform: uppercase;
   }
 }
 
@@ -251,19 +288,20 @@ h6 {
   padding: 80px 0;
   h1 {
     color: #00adef;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .info_block {
     background: #f1f6fc;
-    padding: 50px;
+    padding: 30px;
+    height: 100%;
   }
   .img_block {
-    height: 400px;
+    // height: 400px;
     overflow: hidden;
     position: relative;
-    img {
-      position: relative;
-      top: -180px;
-    }
+ 
   }
 }
 // membership_Section
@@ -286,8 +324,8 @@ h6 {
     overflow: hidden;
     position: relative;
     img {
-      position: relative;
-      top: -120px;
+    //  border: solid 5px #00adef;
+     box-shadow: -15px 15px 0 #00adef;
     }
   }
 }
@@ -296,7 +334,12 @@ h6 {
 
 .footer-section {
   padding: 60px 0;
-  background-color: #203652;
+background-color: #222d35 ;
+  background-image:  url("../images/footer-bg.png");
+  background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 #site-footer,
 #site-footer p,
@@ -310,7 +353,7 @@ h6 {
   padding: 0;
 }
 #site-footer .main-footer {
-  background: #203652;
+  // background: #203652;
   padding: 60px 0;
 }
 #site-footer .footer-widget {
@@ -364,7 +407,7 @@ h6 {
 }
 #site-footer .mc4wp-form-fields .input-field {
   color: #666;
-  background: #0b2342;
+  background: #5a778c;
 }
 
 .mc4wp-form-fields .input-field {
@@ -395,7 +438,8 @@ h6 {
   font-weight: bold;
 }
 .footer-bottom {
-  background-color: #0b2342;
+  // background-color: #0b2342;
+  border-top: solid 1px #54616b;
   padding: 15px 0;
   p {
     color: #fff !important;
@@ -490,5 +534,36 @@ h6 {
         }
       }
     }
+  }
+}
+
+.become-a-member-block{
+  background-color: #00adef;
+  padding: 50px 0;
+  color: #fff;
+  h1{
+    color: #fff;
+    font-weight: 800;
+    font-size: 50px;
+  }
+  p{
+    color: #fff !important;
+    font-size: 20px !important;
+  }
+  .btn-go{
+    background-color: #fff;
+    color: #025777;
+    padding: 20px 30px !important;
+    min-width: 200px;
+    text-decoration: none;
+    border-radius: 2px !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Rajdhani", sans-serif !important;
+    letter-spacing: 1px;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    text-transform: uppercase;
   }
 }

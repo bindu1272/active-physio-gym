@@ -1,13 +1,9 @@
 import React from "react";
-import Icon1 from "../images/icon-10.png";
-import Icon2 from "../images/icon-11.png";
-import Icon3 from "../images/icon-12.png";
-import Icon4 from "../images/icon-13.png";
 import Shape1 from "../images/shape-28.png";
 import Team1 from "../images/member-1.jpg";
 import Team2 from "../images/member-2.jpg";
-import Team3 from "../images/member-3.jpg";
-import Team4 from "../images/member-4.jpg";
+import Team3 from "../images/member-1.jpg";
+import Team4 from "../images/member-2.jpg";
 function Index() {
   return (
     <>
@@ -83,26 +79,13 @@ function Index() {
             <div class="row">
               <div class="col-xl-12 text-center mt-5">
                 <a href="trainer.html" class="readmore_btn mt-5 white-border">
-                  VIEW ALL TRAINER <i class="fas fa-angle-double-right"></i>
+                  VIEW ALL TRAINER <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div class="team-shape-1">
-            <img src={Shape1} alt="shape" />
-          </div>
-          <div class="team-icon-1">
-            <img src={Icon1} alt="icon" />
-          </div>
-          <div class="team-icon-2">
-            <img src={Icon2} alt="icon" />
-          </div>
-          <div class="team-icon-3">
-            <img src={Icon3} alt="icon" />
-          </div>
-          <div class="team-icon-4">
-            <img src={Icon4} alt="icon" />
-          </div>
+       
+  
         </div>
       </section>
     </>

@@ -33,7 +33,7 @@ function Index() {
               </p>
             </div>
             <a href="#" className="readmore_btn mt-4 white-border">
-              Book Online
+              Book Online &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
           </div>
         </div>

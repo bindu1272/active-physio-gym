@@ -2,6 +2,8 @@
   &.sticky {
     .navigation {
       position: fixed !important;
+      background-color: #000;
+      top: 0;
       // box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
       // .navbar_main {
       //   background: #fff;
@@ -13,12 +15,23 @@
       //     }
       //   }
       // }
-      .navbar-brand2{
-        img{
-          height: 50px;
-        }
+      // .navbar-brand2{
+      //   img{
+      //     height: 50px;
+      //   }
+      // }
+      .nav-info-section{
+        border-radius: 0;
       }
     }
+  }
+  .nav-info-section{
+  padding: 0;
+  overflow: hidden;
+  border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    width: 100%;
   }
   .navigation {
     z-index: 9999;
@@ -27,10 +40,10 @@
     right: 0;
     margin: auto;
     transition: all 0.2s ease;
-    top: 0;
-    box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
-    position: fixed;
-    border-top: solid 4px #00adef;
+    top: 20px;
+    // box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
+    position: absolute;
+    // border-top: solid 4px #00adef;
     .navbar-brand2{
       img{
         transition: all 0.3s;
@@ -38,12 +51,19 @@
     }
     .navbar_main {
       background: transparent;
-      padding: 10px 0 !important;
-      background: #fff;
+      // padding: 10px 0 !important;
+      .navbar-collapse{
+        justify-content: flex-end;
+      }
+      .navbar-brand{
+        margin: 0 0 0 15px;
+      }
+      // background: #fff;
       .navbar-nav {
+        align-items: center;
         .nav-item {
           .nav-link {
-            color: #0d2e47;
+            color: #fff;
             font-size: 20px;
             font-weight: 500;
             font-family: "Rajdhani", sans-serif;
@@ -52,14 +72,20 @@
             &.selected{
               color: #00adef;
             }
+            &:hover{
+              color: #00adef; 
+            }
             &.book_btn {
               background: #00adef;
-              border-radius: 50px;
+              // border-radius: 50px;
               padding-left: 30px;
               padding-right: 30px;
               font-weight: 700;
               color: #fff;
+              display: inline-flex;
+              align-items: center;
               margin-left: 20px;
+              min-height: 90px;
               &:hover {
                 background: #0d2e47;
                 color: #fff;

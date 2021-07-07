@@ -30,7 +30,8 @@ function Index() {
             <div className="container">
               <div className="row">
                 <div className="col-sm-12 d-flex">
-                <a className="navbar-brand2" href="#">
+                    <div className="nav-info-section">
+                    <a className="navbar-brand" href="#">
                   <img src={Logo} height={80} />
                 </a>
                   <button
@@ -48,7 +49,7 @@ function Index() {
                     className="collapse navbar-collapse"
                     id="navbarSupportedContent"
                   >
-                    <ul className="navbar-nav m-auto">
+                    <ul className="navbar-nav">
                       <li className="nav-item">
                         <Link
                           // className="nav-link"
@@ -87,11 +88,13 @@ function Index() {
                       </li>
                       <li className="nav-item">
                         <Link className="nav-link book_btn" to="#">
-                        Book Online
+                        Book Online &nbsp; &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
                         </Link>
                       </li>
                     </ul>
                   </div>
+                    </div>
                 </div>
               </div>
             </div>
