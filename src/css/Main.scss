@@ -567,3 +567,40 @@ background-color: #222d35 ;
     text-transform: uppercase;
   }
 }
+.ReactModal__Overlay{
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .onloadmodal{
+    min-width: 500px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 4px;
+    position: relative;
+    .close-btn{
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      font-size: 30px;
+      color: #000;
+    }
+  }
+}
+.full-loader{
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .anticon{
+    color: #00adef;
+    font-size: 30px;
+  }
+}

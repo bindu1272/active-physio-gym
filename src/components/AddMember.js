@@ -36,11 +36,14 @@ function AddMember({visible, onClose, setLoading}) {
         })
     }
     return (
+       <>
+       <h1>Member Ship</h1>
+      
         <Drawer
             title="Create a new account"
             width={520}
             onClose={onClose}
-            visible={visible}
+            // visible={visible}
             bodyStyle={{paddingBottom: 80}}
             footer={
                 <div
@@ -59,66 +62,69 @@ function AddMember({visible, onClose, setLoading}) {
         >
             <Form layout="vertical" hideRequiredMark  onFinish={onFinish}  name="basic"  initialValues={{
 
-            }}
-                  onFinishFailed={onFinishFailed}   form={form}
+}}
+      onFinishFailed={onFinishFailed}   form={form}
+>
+    <Row gutter={16}>
+        <Col span={24}>
+            <Form.Item
+                name="name"
+                label="Full Name"
+                rules={[{required: true, message: 'Please enter full name'}]}
             >
-                <Row gutter={16}>
-                    <Col span={24}>
-                        <Form.Item
-                            name="name"
-                            label="Full Name"
-                            rules={[{required: true, message: 'Please enter full name'}]}
-                        >
-                            <Input placeholder="Please enter full name"/>
-                        </Form.Item>
-                    </Col>
-                </Row>
-                <Row gutter={16}>
-                    <Col span={24}>
-                        <Form.Item
-                            name="email"
-                            label="Email"
-                            rules={[{required: true, message: 'Please enter Email'}]}
-                        >
-                            <Input
-                                style={{width: '100%'}}
-                                placeholder="Please enter Email"
-                            />
-                        </Form.Item>
-                    </Col>
-                </Row>
-                <Row gutter={16}>
-                    <Col span={24}>
-                        <Form.Item
-                            name="phone"
-                            label="Mobile"
-                            rules={[{required: true, message: 'Please enter Mobile'}]}
-                        >
-                            <Input
-                                style={{width: '100%'}}
-                                placeholder="Please enter Mobile"
-                            />
-                        </Form.Item>
-                    </Col>
-                </Row>
-                <Row gutter={16}>
-                    <Col span={24}>
-                        <Form.Item
-                            name="address"
-                            label="Address"
-                            rules={[
-                                {
-                                    required: true,
-                                    message: 'please enter Address',
-                                },
-                            ]}
-                        >
-                            <Input.TextArea rows={4} placeholder="please enter Address"/>
-                        </Form.Item>
-                    </Col>
-                </Row>
-            </Form>
+                <Input placeholder="Please enter full name" size="large"/>
+            </Form.Item>
+        </Col>
+    </Row>
+    <Row gutter={16}>
+        <Col span={24}>
+            <Form.Item
+                name="email"
+                label="Email"
+                rules={[{required: true, message: 'Please enter Email'}]}
+            >
+                <Input
+                    style={{width: '100%'}}
+                    placeholder="Please enter Email"
+                    size="large"
+                />
+            </Form.Item>
+        </Col>
+    </Row>
+    <Row gutter={16}>
+        <Col span={24}>
+            <Form.Item
+                name="phone"
+                label="Mobile"
+                rules={[{required: true, message: 'Please enter Mobile'}]}
+            >
+                <Input
+                    style={{width: '100%'}}
+                    size="large"
+                    placeholder="Please enter Mobile"
+                />
+            </Form.Item>
+        </Col>
+    </Row>
+    <Row gutter={16}>
+        <Col span={24}>
+            <Form.Item
+                name="address"
+                label="Address"
+                rules={[
+                    {
+                        required: true,
+                        message: 'please enter Address',
+                    },
+                ]}
+            >
+                <Input.TextArea rows={4} size="large" placeholder="please enter Address"/>
+            </Form.Item>
+        </Col>
+    </Row>
+</Form>
         </Drawer>
+       </>
     );
 }
 
