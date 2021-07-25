@@ -81,9 +81,9 @@ function Index({selectedTab}) {
                                     defaultSelectedKeys={[selectedTab]}
                                 >
                                     <Menu.Item key="1">
-                                        <Link to="/Dashboard">Dashbord</Link>
+                                        <Link to="/Dashboard">Dashboard</Link>
                                     </Menu.Item>
-                                    <Menu.Item key="2"><Link to="/Attendance">Attendance</Link></Menu.Item>
+                                    <Menu.Item key="2"><Link to="/Notifications">Notifications</Link></Menu.Item>
                                 </Menu>
                             </div>
                         </div>

@@ -9,7 +9,7 @@ import Membership from "./pages/Membership";
 import Contact from "./pages/Contact";
 import Admin from "./admin/Admin";
 import Dashboard from "./admin/Dashboard";
-import Attendance from "./admin/Attendance";
+import Notifications from "./admin/Notifications";
 import ScrollToTop from "./setup/ScrollToTop";
 import Footer from "./components/Footer";
 import Logout from "./pages/Logout";
@@ -28,7 +28,7 @@ function App() {
             <Route path="/Contact" component={Contact} />
             <Route path="/Admin" component={Admin} />
             <Route path="/Dashboard" component={Dashboard} />
-            <Route path="/Attendance" component={Attendance} />
+            <Route path="/Notifications" component={Notifications} />
             <Route path="/logout" component={Logout} />
           </ScrollToTop>
         </Switch>

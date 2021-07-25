@@ -7,7 +7,7 @@ console.log('error is ----', error)
     return (
         <>
             {
-                formLoading && <Spin size={'large'} style={{height: '50vh', paddingTop: '10vh', paddingLeft: '50vh'}}/>
+                formLoading && <Spin size={'large'} style={{height: '50vh', paddingTop: '10vh', paddingLeft: '10vh'}}/>
             }
 
             {
