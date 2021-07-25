@@ -99,7 +99,7 @@ function Index() {
               </div>
             </div>
           </nav>
-         
+
         </div>
       </header>
     </>

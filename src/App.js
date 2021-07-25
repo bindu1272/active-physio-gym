@@ -12,6 +12,7 @@ import Dashboard from "./admin/Dashboard";
 import Attendance from "./admin/Attendance";
 import ScrollToTop from "./setup/ScrollToTop";
 import Footer from "./components/Footer";
+import Logout from "./pages/Logout";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/Admin" component={Admin} />
             <Route path="/Dashboard" component={Dashboard} />
             <Route path="/Attendance" component={Attendance} />
+            <Route path="/logout" component={Logout} />
           </ScrollToTop>
         </Switch>
         <Footer />

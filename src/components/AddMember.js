@@ -1,130 +1,72 @@
 import React, {useState} from 'react';
 import {Drawer, Form, Button, Col, Row, Input, message} from 'antd';
 import {coreApi} from "../setup/configureAxios";
+import MemberForm from "./MemberForm";
 
 const GYM_ID = process.env.REACT_APP_GYM_ID;
 const BRAND_ID = process.env.REACT_APP_BRAND_ID;
 
-function AddMember({visible, onClose, setLoading}) {
+function AddMember({visible, onClose}) {
     const [error, setError] = useState('');
-
+    const [formLoading, setFormLoading] = useState(false);
     const [form] = Form.useForm();
     console.log('visible----', visible)
     const onFinish = (values) => {
         console.log('values are:', values);
-        setLoading(true);
+        setFormLoading(true);
         addMember(values);
     };
 
     const onFinishFailed = (errorInfo) => {
         console.log('Failed:', errorInfo);
+        setFormLoading(false);
+        setError(errorInfo.message)
     };
 
     const addMember = (values) => {
-        values['password']=Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
-        values['userableType']='MEMBER';
+        values['password'] = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+        values['userableType'] = 'MEMBER';
         coreApi.post(`/admin/brands/${BRAND_ID}/gyms/${GYM_ID}/members`, values).then((response) => {
             console.log('response is', response)
-            setLoading(false);
+            setFormLoading(false);
             form.resetFields();
             setError('')
-            message.success('This is a success message');
+            message.success('Member has been added successfully !!!!');
+            onClose();
         }).catch((err) => {
-            console.log('got error---', err)
-            setLoading(false);
-            setError(err.message)
+          //  console.log('got error---', err)
+            setFormLoading(false);
+            setError(err)
         })
     }
     return (
-       <>
-       <h1>Member Ship</h1>
-      
-        <Drawer
-            title="Create a new account"
-            width={520}
-            onClose={onClose}
-            // visible={visible}
-            bodyStyle={{paddingBottom: 80}}
-            footer={
-                <div
-                    style={{
-                        textAlign: 'right',
-                    }}
-                >
-                    <Button onClick={onClose} style={{marginRight: 8}}>
-                        Cancel
-                    </Button>
-                    <Button type="primary" htmlType="submit" form="basic" key="submit" >
-                        Submit
-                    </Button>
-                </div>
-            }
-        >
-            <Form layout="vertical" hideRequiredMark  onFinish={onFinish}  name="basic"  initialValues={{
+        <>
+            <h1>Member Ship</h1>
 
-}}
-      onFinishFailed={onFinishFailed}   form={form}
->
-    <Row gutter={16}>
-        <Col span={24}>
-            <Form.Item
-                name="name"
-                label="Full Name"
-                rules={[{required: true, message: 'Please enter full name'}]}
+            <Drawer
+                title="Create a new account"
+                width={520}
+                onClose={onClose}
+                visible={visible}
+                bodyStyle={{paddingBottom: 80}}
+                footer={
+                    <div
+                        style={{
+                            textAlign: 'right',
+                        }}
+                    >
+                        <Button onClick={onClose} style={{marginRight: 8}}>
+                            Cancel
+                        </Button>
+                        <Button type="primary" htmlType="submit" form="basic" key="submit">
+                            Submit
+                        </Button>
+                    </div>
+                }
             >
-                <Input placeholder="Please enter full name" size="large"/>
-            </Form.Item>
-        </Col>
-    </Row>
-    <Row gutter={16}>
-        <Col span={24}>
-            <Form.Item
-                name="email"
-                label="Email"
-                rules={[{required: true, message: 'Please enter Email'}]}
-            >
-                <Input
-                    style={{width: '100%'}}
-                    placeholder="Please enter Email"
-                    size="large"
-                />
-            </Form.Item>
-        </Col>
-    </Row>
-    <Row gutter={16}>
-        <Col span={24}>
-            <Form.Item
-                name="phone"
-                label="Mobile"
-                rules={[{required: true, message: 'Please enter Mobile'}]}
-            >
-                <Input
-                    style={{width: '100%'}}
-                    size="large"
-                    placeholder="Please enter Mobile"
-                />
-            </Form.Item>
-        </Col>
-    </Row>
-    <Row gutter={16}>
-        <Col span={24}>
-            <Form.Item
-                name="address"
-                label="Address"
-                rules={[
-                    {
-                        required: true,
-                        message: 'please enter Address',
-                    },
-                ]}
-            >
-                <Input.TextArea rows={4} size="large" placeholder="please enter Address"/>
-            </Form.Item>
-        </Col>
-    </Row>
-</Form>
-        </Drawer>
-       </>
+                <MemberForm onFinishFailed={onFinishFailed} onFinish={onFinish} form={form} error={error} formLoading={formLoading}/>
+            </Drawer>
+        </>
     );
 }
 

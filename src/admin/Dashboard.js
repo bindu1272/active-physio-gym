@@ -1,35 +1,38 @@
 import React, {useEffect, useState} from "react";
-import {Link} from "react-router-dom";
-import {Layout, Menu, Breadcrumb, Table, Tag, Space, Avatar, Divider, Tooltip, Button, Spin} from "antd";
-import {UserOutlined, AntDesignOutlined, PlusOutlined} from '@ant-design/icons';
-import DashboardHeader from './DashboardHeader';
-import Logo from "../images/logo.svg";
-import AddMember from "../components/AddMember";
-import {coreApi} from "../setup/configureAxios";
+import {Layout, Table, Spin, Button} from "antd";
 
-const {Header, Content, Footer} = Layout;
+import DashboardHeader from './DashboardHeader';
+import getServerAction, {postServerAction} from "../common/actions";
+import moment from 'moment';
+import _ from 'lodash';
+import AddMember from "../components/AddMember";
+import {PlusOutlined} from "@ant-design/icons";
+
+const {Content} = Layout;
 
 const GYM_ID = process.env.REACT_APP_GYM_ID;
 const BRAND_ID = process.env.REACT_APP_BRAND_ID;
 
 
 function Index() {
-    const [loading, setLoading]= useState(true);
+    const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
-    const [members, setMembers]=useState([]);
+    const [members, setMembers] = useState([]);
+    const [attendances, setAttendances] = useState({loaded: false});
+    const [refreshAttendance, setRefreshAttendance] = useState(false)
     const columns = [
         {
             title: 'Name',
-            dataIndex: ["User","name"],
+            dataIndex: ["User", "name"],
         },
         {
             title: 'Email',
-            dataIndex: ["User","email"],
+            dataIndex: ["User", "email"],
 
         },
         {
             title: 'Mobile',
-            dataIndex: ["User","phone"],
+            dataIndex: ["User", "phone"],
             // sorter: {
             //     compare: (a, b) => a.mobile - b.mobile,
             //     multiple: 3,
@@ -37,31 +40,37 @@ function Index() {
         },
         {
             title: 'Address',
-            dataIndex: ["User","address"],
+            dataIndex: ["User", "address"],
+        },
+        {
+            title: 'Attendance',
+            render: (text, record) => {
+                return !record['checkedIn'] ?
+                    <button onClick={() => markAttendance(record.id)} key={'button' + record.id}>
+                        {'Check-in'}
+                    </button> : <>Checked-in</>
+            }
+            ,
         },
 
     ];
 
-    useEffect(()=>{
+    useEffect(() => {
         loadMember();
-    },[])
+    }, [])
 
     const loadMember = () => {
         setLoading(true);
-        coreApi.get(`/admin/brands/${BRAND_ID}/gyms/${GYM_ID}/members`).then((response) => {
-            console.log('response is', response)
-            setLoading(false);
+        getServerAction(`/admin/brands/${BRAND_ID}/gyms/${GYM_ID}/members`, (response) => {
             setMembers(response.data.data.rows);
             setError('')
-        }).catch((err) => {
+            loadAttendances();
+        }, (err) => {
             console.log('got error---', err)
             setLoading(false);
+            setMembers([]);
             setError(err.message)
-        })
-    }
-
-    function onChange(pagination, filters, sorter, extra) {
-        console.log('params', pagination, filters, sorter, extra);
+        });
     }
 
     const [visible, setVisible] = useState(false);
@@ -76,29 +85,70 @@ function Index() {
     };
 
 
+    const loadAttendances = () => {
+        getServerAction(`/members/attendance?startDate=${moment(new Date()).format('YYYY-MM-DD')}&endDate=${moment(new Date()).format('YYYY-MM-DD')}`, (response) => {
+            console.log('loadAttendances response is', response)
+            console.log('loadAttendances setAttendances is', response.data.data)
+            setAttendances(response.data.data);
+            setError('')
+            setRefreshAttendance(true);
+        }, (err) => {
+            setLoading(false);
+            setAttendances({loaded: false})
+            setError(err.message)
+        });
+    }
+
+    useEffect(() => {
+        if (refreshAttendance) {
+            checkAttendance();
+        }
+    }, [refreshAttendance,attendances&&attendances.length])
+    const checkAttendance = () => {
+        let memberIds = _.map(attendances, 'memberId');
+        if (!memberIds) {
+            memberIds = [];
+        }
+        const newMembers = members && members.map((member) => {
+            return {
+                ...member,
+                checkedIn: memberIds.includes(member.id)
+            }
+        })
+        setMembers(newMembers);
+        setRefreshAttendance(false);
+        setLoading(false);
+    }
+    const markAttendance = (memberId) => {
+        postServerAction(`/members/${memberId}/attendance`, {}, () => {
+            setRefreshAttendance(true);
+            loadAttendances();
+        }, () => {
+        })
+    }
+
+    function onChange(pagination, filters, sorter, extra) {
+        console.log('params', pagination, filters, sorter, extra);
+    }
+
     return (
         <>
             <section className="dashboard_section">
                 <Layout>
-                    <DashboardHeader/>
+                    <DashboardHeader selectedTab={'1'}/>
                     <div className="container">
-                    {
-                        loading &&<Spin size={'large'} style={{height:'50vh', paddingTop:'10vh', paddingLeft:'50vh'}} />
-                    }
+                        {
+                            loading &&
+                            <Spin size={'large'} style={{height: '50vh', paddingTop: '10vh', paddingLeft: '50vh'}}/>
+                        }
 
-                    {
-                        !loading &&
+                        {
+                            !loading &&
                             <div className="row">
                                 <div className="col-sm-12">
-                                    <h2 className="mt-4">Dashboard</h2>
+                                    <h2 className="mt-4">Attendance</h2>
                                     <Button onClick={showDrawer}><PlusOutlined/> Add new member</Button>
-
                                     <Content className="site-layout" style={{marginTop: 30}}>
-                                        {/* <Breadcrumb style={{ margin: "16px 0" }}>
-                    <Breadcrumb.Item>Home</Breadcrumb.Item>
-                    <Breadcrumb.Item>App</Breadcrumb.Item>
-                  </Breadcrumb> */}
-
                                         <div className="site-layout-background">
                                             <Table columns={columns} dataSource={members} onChange={onChange}/>
                                         </div>
@@ -107,7 +157,7 @@ function Index() {
                                 <AddMember visible={visible} onClose={onClose} loading={loading} setLoading={setLoading}/>
                             </div>
 
-                    }
+                        }
                     </div>
                 </Layout>
             </section>

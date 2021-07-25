@@ -1,8 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
-import Team1 from "../images/P9161035_2.jpg";
-import Team2 from "../images/P9171621_2.jpg";
 function Index() {
   return (
     <>
