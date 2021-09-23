@@ -27,7 +27,6 @@ function Index() {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  
                   <span> / </span>
                 </li>
                 <li>Team</li>
@@ -50,121 +49,161 @@ function Index() {
                   </div>
                   <div class="team-content">
                     <h3>
-                      <a href="trainer-details.html ">Matthew Squires</a>
+                      <a href="# ">Joseph Nakhoul </a>
                     </h3>
-                    <span>Consultant Physiotherapist</span>
+                    <span>Head Physiotherapist</span>
                   </div>
                 </div>
               </div>
               <div class="col-lg-9 col-md-6">
                 <div class="wpb_wrapper">
-                  <h3>Matthew Squires</h3>
-                  <h4>Consultant Physiotherapist</h4>
-                  <h5>
-                    MHS (Sports and Manipulative Physiotherapy)
-                    <br />
-                    BAS (Physiotherapy – Honours) The Sydney University Medal
-                    <br />
-                    BAS (Biomedicine)
-                    <br />
-                    Cert V (Pilates Instructor)
-                    <br />
-                    Certified Gyrotonic (Level 1 and 2) and Gyrokinesis (Level 1
-                    and 2) Instructor
-                    <br />
-                    Cert V (Education and training)
-                  </h5>
+                  <h6>Joseph Nakhoul</h6>
                   <p>
-                    Physiotherapy offers me a journey to travel with people into
-                    their lives, to help overcome physical conditions which
-                    prevent them in achieving their best.
+                    {" "}
+                    <strong>Head Physiotherapist</strong>
                   </p>
                   <p>
-                    It started with my understanding of pain and how devastating
-                    such an invisible intruder can be on people’s lives.
+                    Joseph began his musculoskeletal physiotherapy career in
+                    2013, following graduating from The Australian Catholic
+                    University. Since then, he has worked alongside South Sydney
+                    Rabbitohs, and has a passion for private practice
+                    physiotherapy.{" "}
                   </p>
                   <p>
-                    Creating
-                    <strong>
-                      <em>Physio Gym</em>
-                    </strong>
-                    and working with my team has allowed me to build the
-                    pathways for rehabilitation and wellness for many physical
-                    diseases, injuries and disabilities. The experiences I have
-                    shared with my patients has taught me the importance of how
-                    physiotherapy can shape their lives for the better.
+                    Joseph is a proud father to 3 beautiful children. He also
+                    has a love of rugby league, and previously competed at a
+                    semi-professional level.{" "}
+                  </p>
+                  <p>
+                    Joseph prides himself on his ability to relate with his
+                    patients. Through his sporting career, Joseph returned from
+                    over 20 injuries. Combined with his knowledge of both
+                    athletic rehabilitation and manual therapy skills, Joseph is
+                    the perfect partner to assist you with managing your
+                    injuries. Joseph’s empowering and confident approach to
+                    physiotherapy practice, will allow you to feel supported and
+                    safe on your health care journey.{" "}
                   </p>
                 </div>
               </div>
-        
             </div>
           </div>
 
-
-
-
-
-
-
-          <div style={{backgroundColor:"#f1f6fc"}}>
-          <div class="container pt-5 pb-5">
-            <div class="row">
-             
-              <div class="col-lg-9 col-md-6">
-                <div class="wpb_wrapper">
-                  <h3>Matthew Squires</h3>
-                  <h4>Consultant Physiotherapist</h4>
-                  <h5>
-                    MHS (Sports and Manipulative Physiotherapy)
-                    <br />
-                    BAS (Physiotherapy – Honours) The Sydney University Medal
-                    <br />
-                    BAS (Biomedicine)
-                    <br />
-                    Cert V (Pilates Instructor)
-                    <br />
-                    Certified Gyrotonic (Level 1 and 2) and Gyrokinesis (Level 1
-                    and 2) Instructor
-                    <br />
-                    Cert V (Education and training)
-                  </h5>
-                  <p>
-                    Physiotherapy offers me a journey to travel with people into
-                    their lives, to help overcome physical conditions which
-                    prevent them in achieving their best.
-                  </p>
-                  <p>
-                    It started with my understanding of pain and how devastating
-                    such an invisible intruder can be on people’s lives.
-                  </p>
-                  <p>
-                    Creating
-                    <strong>
-                      <em>Physio Gym</em>
-                    </strong>
-                    and working with my team has allowed me to build the
-                    pathways for rehabilitation and wellness for many physical
-                    diseases, injuries and disabilities. The experiences I have
-                    shared with my patients has taught me the importance of how
-                    physiotherapy can shape their lives for the better.
-                  </p>
+          <div style={{ backgroundColor: "#f1f6fc" }}>
+            <div class="container pt-5 pb-5">
+              <div class="row">
+                <div class="col-lg-9 col-md-6">
+                  <div class="wpb_wrapper">
+                    <h6>Matthew Sayed </h6>
+                    <p>
+                      <strong>Physiotherapist</strong>
+                    </p>
+                    <p>
+                      Matthew completed a Doctor of Physiotherapy at Macquarie
+                      University, following a Bachelor of Sport and Exercise
+                      Science at Australian Catholic University.{" "}
+                    </p>
+                    <p>
+                      Matthew has played many sports, but his passion is golf,
+                      which is definitely a love hate relationship.
+                    </p>
+                    <p>
+                      Matthew physiotherapy experience has seen him work
+                      alongside patients ranging from sports athletes, to
+                      hospitalised patients, and everything in between. Matthew
+                      brings an empathetic, and relaxed atmosphere to his
+                      patients in physiotherapy, and utilises techniques of
+                      manual therapy and exercise guidelines, to assist patients
+                      in accomplishing their goals.{" "}
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="team-wrap-3 mb-30">
+                    <div class="team-img">
+                      <img src={Team2} alt="img" />
+                    </div>
+                    <div class="team-content">
+                      <h3>
+                        <a href="#">Matthew Sayed</a>
+                      </h3>
+                      <span>Physiotherapist</span>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6">
+            </div>
+          </div>
+
+          <div class="container pt-5 pb-5">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 mb-5">
                 <div class="team-wrap-3 mb-30">
                   <div class="team-img">
-                    <img src={Team2} alt="img" />
+                    <img src={Team1} alt="Team" />
                   </div>
                   <div class="team-content">
                     <h3>
-                      <a href="trainer-details.html ">Pavan Kasthuriarachchi</a>
+                      <a href="# ">Kshitiz Khadka </a>
                     </h3>
-                    <span>Clinical Physiotherapist</span>
                   </div>
                 </div>
               </div>
+              <div class="col-lg-9 col-md-6">
+                <div class="wpb_wrapper">
+                  <h6>Kshitiz Khadka</h6>
+                  <div className="row">
+                    <div className="col-sm-4">
+                      <h6 style={{ fontSize: 18, fontWeight: "bold" }}>
+                        {" "}
+                        Certifications:{" "}
+                      </h6>
+                      <p>Allied Health Professional</p>
+                      <p>Diploma in fitness</p>
+                      <p>Diploma in remedial Massage</p>
+                      <p>Cert III / Cert IV - Fitness </p>
+                      <p>Diploma in Personal nutrition</p>
+                    </div>
+                    <div className="col-sm-4">
+                      <h6 style={{ fontSize: 18, fontWeight: "bold" }}>
+                        {" "}
+                        Specialitie(s):{" "}
+                      </h6>
+                      <ul style={{ lineHeight: "50px" }}>
+                        <li>Functional Training</li>
+                        <li>Powerlifting </li>
+                        <li>Strength and conditioning</li>
+                        <li>Weight loss and body transformation</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <p>
+                    Kshitiz has more than ten years of experience as a Personal
+                    Trainer and group fitness instructor. He started
+                    professional bodybuilding at an young age which later
+                    developed his passion towards fitness and has been helping
+                    people to be the best version of themselves. Kshitiz is a
+                    qualified Allied Health professional, has been working as a
+                    physio assistant for past two years. This extensive
+                    experience and qualification has been beneficial to all our
+                    members while training.
+                  </p>
+                  <p>
+                    He is providing customised program, support and guidance for
+                    the members to achieve the results they deserve from their
+                    hard work. He helps clients with an education rather than
+                    just short term results which will both help them to be in
+                    best shape of their life and also providing them the tools
+                    to maintain it for the rest of life.{" "}
+                  </p>
+                  <p>
+                    He works with every single individual on identifying the
+                    “why”. Developing personalised adherence strategies for
+                    their personality and lifestyle.
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </section>

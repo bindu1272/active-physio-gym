@@ -25,7 +25,6 @@ function Index() {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  
                   <span> / </span>
                 </li>
                 <li>Physiotheraphy</li>
@@ -37,51 +36,103 @@ function Index() {
       <section className="team_section">
         <div
           class="team-area-3 bg-fix pt-5"
-          style={{ backgroundImage: "none", backgroundColor: "#fff" }}
+          style={{
+            backgroundImage: "none",
+            backgroundColor: "rgb(241, 246, 252)",
+          }}
         >
           <div class="container pt-4 pb-5">
             <div class="row">
               <div class="col-lg-4 col-md-6 mb-5">
                 <div class="team-wrap-3 mb-30">
-                  <div class="team-img">
-                    <img src={Team1} alt="Team" />
-                  </div>
-     
+                  <h1>Management and rehab of complex sports injury </h1>
+                  <ul>
+                    <li>Management and rehab of complex sports injury </li>
+                    <li>
+                      Practised exercise prescription and collaborative goal
+                      setting
+                    </li>
+                    <li>Supportive Environment </li>
+                  </ul>
                 </div>
               </div>
-              <div class="col-lg-8 col-md-6">
-                <div class="wpb_wrapper">
-                  <h3>Physiotherapy Care</h3>
-                 <p>Our team works together to provide you with a full body assessment and a clear pathway to achieve your rehabilitation goals.</p>
-                 <p>Once your program is agreed, you have a choice of exercise options, privately with your physiotherapist, as part of a physiotherapist led class, or independently with a membership*</p>
-                </div>
-              </div>
-        
-            </div>
-          </div>
-
-          <div style={{backgroundColor:"#f1f6fc"}}>
-          <div class="container pt-5 pb-5">
-            <div class="row">
-             
-              <div class="col-lg-8 col-md-6">
-                <div class="wpb_wrapper">
-                 <h3>Physiotherapist led rehabilitation and conditioning classes</h3>
-                 <p>Learn your prescribed program with the assistance of your physiotherapist in our Physio Gym group classes.</p>
-                 <p>These small group classes support up to 6 participants to actively learn and consolidate their own program. Your physiotherapist will monitor your equipment set up and exercise activity in as they move between individual exercise zones.</p>
-                 <p>We love teaching our classes! It’s a great way for us to help you master your program, and accelerate your rehabilitation in a safe and supportive environment.</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 mb-5">
                 <div class="team-wrap-3 mb-30">
-                  <div class="team-img">
-                    <img src={Team2} alt="img" />
-                  </div>
-           
+                  <h1>Group Exercise mentoring </h1>
+                  <ul>
+                    <li>Functional Training </li>
+                    <li>
+                    Pilates and Yoga
+                    </li>
+                    <li>Affordable Personalised Exercise </li>
+                  </ul>
                 </div>
               </div>
+              <div class="col-lg-4 col-md-6 mb-5">
+                <div class="team-wrap-3 mb-30">
+                  <h1>Chronic Condition Management </h1>
+                  <ul>
+                    <li>Medicare Bulk Bill Physiotherapy (EPC) </li>
+                    <li>
+                    Osteoarthritis assistance
+                    </li>
+                    <li>Reduction of likelihood of developing chronic Illness </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-5">
+                <div class="team-wrap-3 mb-30">
+                  <h1>NDIS and Workers Compensation </h1>
+                  <ul>
+                    <li>SIRA Certified</li>
+                    <li>
+                    NDIS Registered Providers 
+                    </li>
+                    <li>Child and Elderly Friendly</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-5">
+                <div class="team-wrap-3 mb-30">
+                  <h1>Pre/Post Surgery management  </h1>
+                  <ul>
+                    <li>Guided Treatment </li>
+                    <li>Collaboration with Surgeon and Doctor </li>
+                    <li>Reduced risk of post surgery complications  </li>
+                    <li>Pain Management </li>
+                    
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-5">
+                <div class="team-wrap-3 mb-30">
+                  <h1>Wide Range of Treatment Options  </h1>
+                  <ul>
+                    <li>Professional Advice and Education </li>
+                    <li>Individualised and Targeted Exercise Prescription</li>
+                    <li>Hands on treatment </li>
+                    <li>Dry Needling/Acupuncture</li>
+                    <li>Joint Mobilisations </li>
+                    
+                  </ul>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
-          </div>
           </div>
         </div>
       </section>
