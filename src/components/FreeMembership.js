@@ -75,7 +75,7 @@ function FreeMembership({visible, onClose}) {
     }
     return (
         <>
-            <h1>Member Ship</h1>
+            <h1>7 days FREE trial</h1>
             {success && (
                 <div className="col-md-12 success-msg">
                     <i className="fa fa-check"></i> {success}
