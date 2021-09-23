@@ -3,7 +3,7 @@ import {Layout, Table, Spin} from "antd";
 
 import DashboardHeader from './DashboardHeader';
 import getServerAction from "../common/actions";
-
+import moment from "moment";
 const {Content} = Layout;
 
 const GYM_ID = process.env.REACT_APP_GYM_ID;
@@ -18,16 +18,16 @@ function Index() {
     const columns = [
         {
             title: 'Name',
-            dataIndex: ["User", "name"],
+            dataIndex: ["Member","User", "name"],
         },
         {
             title: 'Email',
-            dataIndex: ["User", "email"],
+            dataIndex: ["Member","User", "email"],
 
         },
         {
             title: 'Mobile',
-            dataIndex: ["User", "phone"],
+            dataIndex: ["Member","User", "phone"],
             // sorter: {
             //     compare: (a, b) => a.mobile - b.mobile,
             //     multiple: 3,
@@ -35,7 +35,12 @@ function Index() {
         },
         {
             title: 'Address',
-            dataIndex: ["User", "address"],
+            dataIndex: ["Member","User", "address"],
+        },
+        {
+            title: 'Last Check-in',
+            dataIndex: [ "maxMarkedAt"],
+            render: (date) =>moment(date).format('DD-MM-YYYY'),
         }
 
     ];
@@ -47,8 +52,7 @@ function Index() {
     const loadMember = (current=1, size=PAGE_SIZE) => {
         setLoading(true);
         getServerAction(`/admin/brands/${BRAND_ID}/gyms/${GYM_ID}/notifications?page=${current}&limit=${size}`, (response) => {
-            setMembers(response.data.data.rows);
-            setMeta(response.data.data.meta);
+            setMembers(response.data.data);
             setLoading(false);
 
             setError('')
@@ -62,23 +66,8 @@ function Index() {
 
     function onChange(pagination, filters, sorter, extra) {
         console.log('params', pagination, filters, sorter, extra);
-        loadMember(pagination.current, pagination.pageSize)
+   //     loadMember(pagination.current, pagination.pageSize)
     }
-
-    const paginationProps = () => {
-        console.log('meta before setup  ----', meta);
-        return {
-            // showSizeChanger: true,
-            // showQuickJumper: true,
-            total: parseInt(meta.total), // total number of data
-            pageSize: parseInt(meta.limit), // number of pages per page
-            current: parseInt(meta.currentPage), // current page number
-            showTotal: ((total) => {
-                return `total ${total}`
-            })
-        }
-    }
-
 
     return (
         <>
@@ -100,7 +89,7 @@ function Index() {
                                     <Content className="site-layout" style={{marginTop: 30}}>
                                         <div className="site-layout-background">
                                             <Table columns={columns} dataSource={members} onChange={onChange}
-                                                   pagination={paginationProps()}/>
+                                                   />
                                         </div>
                                     </Content>
                                 </div>

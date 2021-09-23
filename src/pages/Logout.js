@@ -7,8 +7,10 @@ function Index() {
     const history = useHistory();
 
     useEffect(() => {
-        console.log('logout page ---before-----',localStorage.getItem('apg_user'),   localStorage.getItem('apg_user_type'))
-        localStorage.setItem('apg_user', {});
+        localStorage.setItem('apg_user', null);
+        localStorage.setItem('apg_user_type', null);
+        localStorage.setItem('apg_user_name', null);
+
         localStorage.getItem('apg_user_type')
         console.log('logout page ----after----',localStorage.getItem('apg_user'))
         coreApi.defaults.headers.common['Authorization'] = ``;

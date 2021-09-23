@@ -22,6 +22,7 @@ function Index() {
             coreApi.defaults.headers.common['Authorization'] = `Bearer ${user.token}`;
             console.log('user type-----------------', user.userableType);
             localStorage.setItem('apg_user_type', user.userableType);
+            localStorage.setItem('apg_user_name', user.name);
             history.push("/Dashboard");
         }, (error)=>{
             console.log('error ---------', error);

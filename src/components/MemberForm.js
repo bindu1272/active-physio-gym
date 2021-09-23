@@ -1,8 +1,11 @@
 import React, {useState} from 'react';
 import {Form, Col, Row, Input, Spin} from 'antd';
+import {
+    CloseCircleOutlined,
+} from '@ant-design/icons';
 
 function MemberForm({onFinishFailed, onFinish, form, error, formLoading}) {
-console.log('error is ----', error)
+    console.log('error is ----', error)
 
     return (
         <>
@@ -18,9 +21,12 @@ console.log('error is ----', error)
                     <Row gutter={16}>
                         <div>
                             {error && Object.keys(error).map((err) => {
-                                return <div style={{color:'red', paddingLeft:'20px'}} key={err}>{error[err] && error[err][0]}</div>
+                                return <div style={{color: 'red', paddingLeft: '20px'}} key={err}>
+                                    <CloseCircleOutlined/>{error[err] && error[err][0]}</div>
 
                             })}
+                            {error && <br/>}
+
                         </div>
                     </Row>
                     <Row gutter={16}>

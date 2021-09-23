@@ -9,29 +9,12 @@ const {Header, Content, Footer} = Layout;
 
 function Index({selectedTab}) {
     const history = useHistory();
+    const userName=localStorage.getItem('apg_user_name');
     const menu = (
         <Menu>
             <Menu.Item key="1">Profile</Menu.Item>
             <Menu.Item key="2" onClick={() => history.push('/logout')}>Logout</Menu.Item>
         </Menu>
-    );
-    const content = (
-        <div className="notification_content">
-            <div className="item">
-                <MailOutlined/>
-                <div className="details">
-                    <h6>Content sfsfs sfsfs sf dsf sdf sdfsd fdsf dsfdsf dsfdsfds</h6>
-                    <p>Content</p>
-                </div>
-            </div>
-            <div className="item">
-                <MailOutlined/>
-                <div className="details">
-                    <h6>Content sfsfs sfsfs sf dsf sdf sdfsd fdsf dsfdsf dsfdsfds</h6>
-                    <p>Content</p>
-                </div>
-            </div>
-        </div>
     );
 
     return (
@@ -47,7 +30,7 @@ function Index({selectedTab}) {
                                 </Link>
                             </div>
                             <div className="col-sm-4 text-end d-flex align-items-center justify-content-end">
-                                <Tooltip title="Veera" placement="top">
+                                <Tooltip title={userName} placement="top">
                                     <Avatar style={{backgroundColor: '#1890ff'}} icon={<UserOutlined/>}/>
                                 </Tooltip>
 
@@ -58,15 +41,9 @@ function Index({selectedTab}) {
                                 >
                                     <a className="ant-dropdown-link" onClick={e => e.preventDefault()}
                                        style={{marginLeft: 10, color: "#fff"}}>
-                                        Veera <DownOutlined/>
+                                        {userName} <DownOutlined/>
                                     </a>
                                 </Dropdown>
-                                <Popover content={content} trigger="click">
-                                    <div className="notification-info">
-                                        <Avatar icon={<BellOutlined/>}/>
-                                        <span className="count">2</span>
-                                    </div>
-                                </Popover>
                             </div>
                         </div>
                     </div>

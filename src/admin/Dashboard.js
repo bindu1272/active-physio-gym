@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {Layout, Table, Spin, Button} from "antd";
+import {Layout, Table, Spin, Button, Tag} from "antd";
 
 import DashboardHeader from './DashboardHeader';
 import getServerAction, {postServerAction} from "../common/actions";
@@ -49,7 +49,7 @@ function Index() {
                 return !record['checkedIn'] ?
                     <Button onClick={() => markAttendance(record.id)} key={'button' + record.id}>
                         {'Check-in'}
-                    </Button> : <>Checked-in</>
+                    </Button> : <Tag color="green">Checked-in</Tag>
             }
             ,
         },
@@ -123,6 +123,7 @@ function Index() {
         setLoading(false);
     }
     const markAttendance = (memberId) => {
+        setLoading(true);
         postServerAction(`/members/${memberId}/attendance`, {}, () => {
             setRefreshAttendance(true);
             loadAttendances();
