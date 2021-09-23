@@ -51,7 +51,7 @@ function Index() {
 
     if (!flag) {
       setLoading(true);
-      values["type"] = "activeGym";
+      values["type"] = "activeGymContactUs";
       coreApi
         .post("/email/send", values)
         .then((response) => {
@@ -221,7 +221,7 @@ function Index() {
                     <h6 style={{color:"#fff", fontSize:20, lineHeight:"normal", marginBottom:0, fontWeight:"bold"}}>
                       P: <a href="tel:0478496444">0478 496 444</a>
                     </h6>
-                   
+
                   </div>
                 </div>
                 <div class="info-wrap mb-20">

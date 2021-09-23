@@ -8,9 +8,10 @@ import MembershipSection from "../components/MembershipSection";
 import AddMemberShip from "../components/AddMember";
 import Modal from 'react-modal';
 import {SyncOutlined} from '@ant-design/icons';
+import FreeMembership from "../components/FreeMembership";
 function Index() {
   const [modalIsOpen, setIsOpen] = useState(true);
- 
+
   function closeModal() {
     setIsOpen(false);
   }
@@ -28,7 +29,7 @@ function Index() {
       >
         <a className="close-btn" onClick={closeModal}><i class="fa fa-times" aria-hidden="true"></i></a>
         <div className="member-shop-form">
-          <AddMemberShip/>
+          <FreeMembership onClose={closeModal}/>
         </div>
       </Modal>
 
