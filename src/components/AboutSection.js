@@ -9,12 +9,11 @@ function Index() {
             <div className="col-sm-5">
                     <img src={Img1} className="img-fluid"/>
                 </div>
-                <div className="col-sm-7 d-flex justify-content-center flex-column" style={{alignItems:"end"}}>
+                <div className="col-sm-7 d-flex justify-content-center flex-column">
                     <h3 className="mb-4">Active Physio Gym</h3>
-                    <p>Physiotherapist care for your injuries and train with you to strengthen your body.</p>
-                    <p>Our hands on care guides your awareness into how troubled muscles, nerves, elastic tissue or joints may be causing you pain and restricting your movements.</p>
-                    <p>We understand that for many people exercising is not easy. We work with you individually and in classes for you to learn your program...</p>
-                    <a href="#" className="readmore_btn mt-4">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <h5 style={{fontSize:22, lineHeight:"36px"}}>Sports injury management and exercise experts, with a physiotherapist guided approach to health and fitness.</h5>
+                    <h5 style={{fontSize:22, lineHeight:"36px"}}>Experienced staff with both local and national sports experience. </h5>
+                    {/* <a href="#" className="readmore_btn mt-4">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> */}
                 </div>
                
             </div>
