@@ -26,23 +26,32 @@ function Index() {
                   </div>
                   <div className="col-sm-4">
                      <div className=" info_block">
-                     <h1>Back and Neck Pain</h1>
-                      <p>We understand that back and neck pain can be debilitating. Initial assessment and treatment by your physiotherapist will focus on hands on care to relieve pain and regain movement...</p>
-                    <Link className="readmore_btn mt-4">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
+                     <h1>Management and rehab of complex sports injury </h1>
+                      <ul>
+                        <li>Expert Assessment and treatment</li>
+                        <li>Practised exercise prescription...</li>
+                      </ul>
+                    <Link className="readmore_btn mt-4" to="/Physiotheraphy">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
                      </div>
                   </div>
                   <div className="col-sm-4">
                     <div className="info_block">
-                    <h1>Sports Injuries and post-operative management</h1>
-                      <p>From soccer to tennis, basketball to rowing, running to walking, no matter the sport we can help. We offer a comprehensive approach to injury management, movement training...</p>
-                    <Link className="readmore_btn mt-4">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
+                    <h1>Group Exercise mentoring</h1>
+                    <ul>
+                        <li>Functional Training</li>
+                        <li>Pilates and Yoga</li>
+                      </ul>
+                       <Link className="readmore_btn mt-4" to="/Physiotheraphy">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
                     </div>
                   </div>
                   <div className="col-sm-4 ">
                      <div className="info_block">
-                     <h1>Sports Injuries and post-operative management</h1>
-                      <p>From soccer to tennis, basketball to rowing, running to walking, no matter the sport we can help. We offer a comprehensive approach to injury management, movement training...</p>
-                    <Link className="readmore_btn mt-4">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
+                     <h1>Chronic Condition Management</h1>
+                     <ul>
+                        <li>Medicare Bulk Bill Physiotherapy (EPC)</li>
+                        <li>Osteoarthritis assistance</li>
+                      </ul>
+                    <Link className="readmore_btn mt-4" to="/Physiotheraphy">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
                      </div>
                   </div>
                  

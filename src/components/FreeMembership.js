@@ -82,11 +82,7 @@ function FreeMembership({visible, onClose}) {
                 </div>
             )}
             <MemberForm onFinishFailed={onFinishFailed} onFinish={onFinish} form={form} error={error} formLoading={loading}/>
-                <div
-                    style={{
-                        textAlign: 'right',
-                    }}
-                >
+                <div className="bottom_info" >
                     <Button onClick={onClose} style={{marginRight: 8}}>
                         Cancel
                     </Button>

@@ -23,62 +23,50 @@ function Index() {
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-3 col-md-6">
+              <div class="col-lg-4 col-md-6">
                 <div class="team-wrap-3 mb-30">
                   <div class="team-img">
                     <img src={Team1} alt="Team" />
                   </div>
                   <div class="team-content">
                     <h3>
-                      <a href="trainer-details.html ">Matthew Squires</a>
+                      <a href="/Team">Joseph Nakhoul </a>
                     </h3>
-                    <span>Consultant Physiotherapist</span>
+                    <span>Head Physiotherapist</span>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6">
+              <div class="col-lg-4 col-md-6">
                 <div class="team-wrap-3 mb-30">
                   <div class="team-img">
                     <img src={Team2} alt="img" />
                   </div>
                   <div class="team-content">
                     <h3>
-                      <a href="trainer-details.html ">Pavan Kasthuriarachchi</a>
+                      <a href="/Team">Matthew Sayed </a>
                     </h3>
-                    <span>Clinical Physiotherapist</span>
+                    <span>Physiotherapist</span>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6">
+              <div class="col-lg-4 col-md-6">
                 <div class="team-wrap-3 mb-30">
                   <div class="team-img">
                     <img src={Team3} alt="" />
                   </div>
                   <div class="team-content">
                     <h3>
-                      <a href="trainer-details.html ">Brett Peterson</a>
+                      <a href="/Team">Kshitiz Khadka</a>
                     </h3>
-                    <span>Practice Manager</span>
+                    <span>Functional Training</span>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6">
-                <div class="team-wrap-3 mb-30">
-                  <div class="team-img">
-                    <img src={Team4} alt="" />
-                  </div>
-                  <div class="team-content">
-                    <h3>
-                      <a href="trainer-details.html ">Michelle O’Brien</a>
-                    </h3>
-                    <span>Medical Receptionist</span>
-                  </div>
-                </div>
-              </div>
+          
             </div>
             <div class="row">
               <div class="col-xl-12 text-center mt-5">
-                <a href="trainer.html" class="readmore_btn mt-5 white-border">
+                <a href="/Team" class="readmore_btn mt-5 white-border">
                   VIEW ALL TRAINER <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                 </a>
               </div>
