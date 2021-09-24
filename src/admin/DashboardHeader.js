@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 import {Link, useHistory} from "react-router-dom";
-import {Layout, Menu, Dropdown, Breadcrumb, Table, Tag, Space, Avatar, Divider, Tooltip, Popover} from "antd";
-import {UserOutlined, DownOutlined, BellOutlined, MailOutlined} from '@ant-design/icons';
+import {Avatar, Dropdown, Layout, Menu, Tooltip} from "antd";
+import {DownOutlined, UserOutlined} from '@ant-design/icons';
 
 import Logo from "../images/logo.svg";
 

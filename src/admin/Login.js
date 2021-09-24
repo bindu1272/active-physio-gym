@@ -1,10 +1,11 @@
 import React, {useState} from "react";
-import {Form, Input, Button, Checkbox} from "antd";
+import {Button, Form, Input} from "antd";
 import Logo from "../images/logo.svg";
 import {postServerAction} from "../common/actions";
-import { useHistory } from "react-router-dom";
+import {useHistory} from "react-router-dom";
 import _ from 'lodash';
 import {coreApi} from "../setup/configureAxios";
+
 function Index() {
     const [error, setError] = useState('');
 

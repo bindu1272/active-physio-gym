@@ -1,8 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
-import { Link } from "react-router-dom";
-import Team1 from "../images/P9161035_2.jpg";
-import Team2 from "../images/P9171621_2.jpg";
+import {Link} from "react-router-dom";
+
 function Index() {
   return (
     <>
@@ -11,7 +10,7 @@ function Index() {
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
-              <h1>Physiotheraphy</h1>
+              <h1>Our Services</h1>
             </div>
           </div>
         </div>
@@ -27,7 +26,7 @@ function Index() {
                 <li>
                   <span> / </span>
                 </li>
-                <li>Physiotheraphy</li>
+                <li>Our Services</li>
               </ul>
             </div>
           </div>
@@ -86,7 +85,7 @@ function Index() {
                   <ul>
                     <li>SIRA Certified</li>
                     <li>
-                    NDIS Registered Providers 
+                    NDIS Registered Providers
                     </li>
                     <li>Child and Elderly Friendly</li>
                   </ul>
@@ -100,7 +99,7 @@ function Index() {
                     <li>Collaboration with Surgeon and Doctor </li>
                     <li>Reduced risk of post surgery complications  </li>
                     <li>Pain Management </li>
-                    
+
                   </ul>
                 </div>
               </div>
@@ -113,25 +112,10 @@ function Index() {
                     <li>Hands on treatment </li>
                     <li>Dry Needling/Acupuncture</li>
                     <li>Joint Mobilisations </li>
-                    
+
                   </ul>
                 </div>
               </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
           </div>
         </div>

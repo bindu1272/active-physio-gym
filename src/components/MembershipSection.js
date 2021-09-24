@@ -1,5 +1,7 @@
 import React from "react";
 import Img1 from "../images/P9171621_2.jpg";
+import {Link} from "react-router-dom";
+
 function Index() {
   return (
     <section className="membership_Section">
@@ -32,9 +34,9 @@ function Index() {
                 in store.
               </p>
             </div>
-            <a href="#" className="readmore_btn mt-4 white-border">
+            <Link to="/Contact" className="readmore_btn mt-4 white-border">
               Book Online &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

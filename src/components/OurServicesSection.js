@@ -2,7 +2,7 @@ import React from "react";
 import Team1 from "../images/P9161026_2.jpg";
 import Team2 from "../images/P9161329.jpg";
 import Team3 from "../images/team3.jpg";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 function Index() {
   return (
@@ -11,7 +11,7 @@ function Index() {
           <div className="container">
             <div className="row">
             <div className="col-sm-12 text-center mb-5 pb-3">
-                      <h1 style={{textTransform:"uppercase", fontSize:40, fontWeight:600}}>Physiotherapy</h1>
+                      <h1 style={{textTransform:"uppercase", fontSize:40, fontWeight:600}}>Our Services</h1>
                   </div>
             </div>
               <div className="row">
@@ -31,7 +31,7 @@ function Index() {
                         <li>Expert Assessment and treatment</li>
                         <li>Practised exercise prescription...</li>
                       </ul>
-                    <Link className="readmore_btn mt-4" to="/Physiotheraphy">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
+                    <Link className="readmore_btn mt-4" to="/OurServices">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
                      </div>
                   </div>
                   <div className="col-sm-4">
@@ -41,7 +41,7 @@ function Index() {
                         <li>Functional Training</li>
                         <li>Pilates and Yoga</li>
                       </ul>
-                       <Link className="readmore_btn mt-4" to="/Physiotheraphy">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
+                       <Link className="readmore_btn mt-4" to="/OurServices">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
                     </div>
                   </div>
                   <div className="col-sm-4 ">
@@ -51,14 +51,9 @@ function Index() {
                         <li>Medicare Bulk Bill Physiotherapy (EPC)</li>
                         <li>Osteoarthritis assistance</li>
                       </ul>
-                    <Link className="readmore_btn mt-4" to="/Physiotheraphy">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
+                    <Link className="readmore_btn mt-4" to="/OurServices">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
                      </div>
                   </div>
-                 
-                 
-                 
-
-
               </div>
           </div>
       </section>

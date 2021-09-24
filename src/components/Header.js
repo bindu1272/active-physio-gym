@@ -1,6 +1,6 @@
-import React,{useEffect} from 'react';
+import React, {useEffect} from 'react';
 import Logo from "../images/logo.svg";
-import { Link, NavLink } from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 function Index() {
   const [scrolled,setScrolled]=React.useState(false);
@@ -72,8 +72,8 @@ function Index() {
                         </NavLink>
                       </li>
                       <li className="nav-item">
-                        <NavLink activeClassName="selected" className="nav-link" exact to="/Physiotheraphy">
-                        Physiotherapy
+                        <NavLink activeClassName="selected" className="nav-link" exact to="/OurServices">
+                          Our Services
                         </NavLink>
                       </li>
                       <li className="nav-item">
@@ -87,7 +87,7 @@ function Index() {
                         </NavLink>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link book_btn" to="#">
+                        <Link className="nav-link book_btn" to="/Contact">
                         Book Online &nbsp; &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
                         </Link>

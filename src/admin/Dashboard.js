@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {Layout, Table, Spin, Button, Tag} from "antd";
+import {Button, Layout, Spin, Table, Tag} from "antd";
 
 import DashboardHeader from './DashboardHeader';
 import getServerAction, {postServerAction} from "../common/actions";

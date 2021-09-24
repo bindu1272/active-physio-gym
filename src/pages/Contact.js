@@ -1,19 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
 import Header from "../components/Header";
-import { Link } from "react-router-dom";
-import { Form, Input, Button, Checkbox } from "antd";
-import { trackPageViewInGoogle } from "../setup/GoogleSetUp";
+import {Link} from "react-router-dom";
+import {Button, Form, Input} from "antd";
+import {trackPageViewInGoogle} from "../setup/GoogleSetUp";
 import validator from "validator";
-import { coreApi } from "../setup/configureAxios";
+import {coreApi} from "../setup/configureAxios";
 
-const initialValues = {
-  "First Name": "",
-  "Last Name": "",
-  Email: "",
-  "Phone Number": "",
-  Message: "",
-  type: "mandm",
-};
 
 function Index() {
   const { TextArea } = Input;
@@ -195,7 +187,7 @@ function Index() {
                 </div>
                 <Form.Item>
                   <Button type="primary" htmlType="submit">
-                    Submit
+                    Send
                   </Button>
                 </Form.Item>
               </Form>
@@ -209,7 +201,7 @@ function Index() {
                   </div>
                   <div class="content-part">
                     <h4>Office Address</h4>
-                    Located at 208 Parramatta Road, Homebush NSW, 2140
+                    Located at 208 Parramatta Road, Homebush, NSW, 2140
                   </div>
                 </div>
                 <div class="info-wrap mb-20">
@@ -232,7 +224,7 @@ function Index() {
                     <h4>Mail Us</h4>
                     <p>
                       E:{" "}
-                      <a href="mailto:info@codesless.com">
+                      <a href="mailto:info@activephysiogym.com">
                         info@activephysiogym.com
                       </a>
                     </p>
@@ -254,8 +246,8 @@ function Index() {
                   </div>
                   <div class="content-part">
                     <h4>Social Media</h4>
-                    <a href="https://www.instagram.com/" target="_blank">   <i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a> &nbsp; &nbsp;
-                    <a href="https://www.facebook.com/ " target="_blank"> <i class="fa fa-facebook-official" aria-hidden="true"></i>  Facebook</a>
+                    <a href="https://www.instagram.com/activephysiogym" target="_blank">   <i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a> &nbsp; &nbsp;
+                    <a href="https://www.facebook.com/activephysiogym " target="_blank"> <i class="fa fa-facebook-official" aria-hidden="true"></i>  Facebook</a>
                   </div>
                 </div>
               </div>

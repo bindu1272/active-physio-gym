@@ -2,9 +2,7 @@ import React from "react";
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
-import Logo from "../images/logo.svg";
 import slider1 from "../images/slider03-2.jpg";
-import slider2 from "../images/slider2.jpg";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 

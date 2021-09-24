@@ -1,7 +1,7 @@
 import React from 'react';
 import Img1 from "../images/pic5.jpg";
 import Header from "../components/Header";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 function Index() {
 

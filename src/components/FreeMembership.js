@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Drawer, Form, Button, Col, Row, Input, message} from 'antd';
+import {Button, Form} from 'antd';
 import {coreApi} from "../setup/configureAxios";
 import MemberForm from "./MemberForm";
 import validator from "validator";
@@ -11,18 +11,16 @@ function FreeMembership({visible, onClose}) {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
     const [success, setSuccess] = useState("");
-    const [formLoading, setFormLoading] = useState(false);
+
     const [form] = Form.useForm();
-    console.log('visible----', visible)
     const onFinish = (values) => {
-        console.log('values are:', values);
-        setFormLoading(true);
+        setLoading(true);
         addMember(values);
     };
 
     const onFinishFailed = (errorInfo) => {
         console.log('Failed:', errorInfo);
-        setFormLoading(false);
+        setLoading(false);
         setError(errorInfo.message)
     };
 
@@ -75,7 +73,7 @@ function FreeMembership({visible, onClose}) {
     }
     return (
         <>
-            <h1>7 days FREE trial</h1>
+            <h1>Join 7 Days FREE Trial Today</h1>
             {success && (
                 <div className="col-md-12 success-msg">
                     <i className="fa fa-check"></i> {success}
@@ -87,7 +85,7 @@ function FreeMembership({visible, onClose}) {
                         Cancel
                     </Button>
                     <Button type="primary" htmlType="submit" form="basic" key="submit">
-                        Submit
+                        Join
                     </Button>
                 </div>
         </>

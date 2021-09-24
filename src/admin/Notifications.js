@@ -1,9 +1,10 @@
 import React, {useEffect, useState} from "react";
-import {Layout, Table, Spin} from "antd";
+import {Layout, Spin, Table} from "antd";
 
 import DashboardHeader from './DashboardHeader';
 import getServerAction from "../common/actions";
 import moment from "moment";
+
 const {Content} = Layout;
 
 const GYM_ID = process.env.REACT_APP_GYM_ID;

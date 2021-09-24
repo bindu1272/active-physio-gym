@@ -1,5 +1,6 @@
 import React from 'react';
 import Img1 from "../images/pic5.jpg";
+
 function Index() {
 
   return (
@@ -15,7 +16,7 @@ function Index() {
                     <h5 style={{fontSize:22, lineHeight:"36px"}}>Experienced staff with both local and national sports experience. </h5>
                     {/* <a href="#" className="readmore_btn mt-4">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> */}
                 </div>
-               
+
             </div>
         </div>
      </section>

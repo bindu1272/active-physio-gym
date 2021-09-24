@@ -3,12 +3,12 @@ import Slider from "../components/Slider";
 import Header from "../components/Header";
 import AboutSection from "../components/AboutSection";
 import TeamSection from "../components/TeamSection";
-import PhysiotherapySection from "../components/PhysiotherapySection";
+import OurServicesSection from "../components/OurServicesSection";
 import MembershipSection from "../components/MembershipSection";
-import AddMemberShip from "../components/AddMember";
 import Modal from 'react-modal';
-import {SyncOutlined} from '@ant-design/icons';
 import FreeMembership from "../components/FreeMembership";
+import {Link} from "react-router-dom";
+
 function Index() {
   const [modalIsOpen, setIsOpen] = useState(true);
 
@@ -27,7 +27,7 @@ function Index() {
         // style={customStyles}
         className="onloadmodal"
       >
-        <a className="close-btn" onClick={closeModal}><i class="fa fa-times" aria-hidden="true"></i></a>
+        <Link className="close-btn" to="#" onClick={closeModal}><i class="fa fa-times" aria-hidden="true"></i></Link>
         <div className="member-shop-form">
           <FreeMembership onClose={closeModal}/>
         </div>
@@ -37,7 +37,7 @@ function Index() {
       <Slider />
       <AboutSection />
       <TeamSection />
-      <PhysiotherapySection />
+      <OurServicesSection />
       <MembershipSection />
     </>
   );

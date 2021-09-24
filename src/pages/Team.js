@@ -1,10 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import Team1 from "../images/member-1.jpg";
-import Team2 from "../images/member-2.jpg";
-import Team3 from "../images/member-3.jpg";
-import Team4 from "../images/member-4.jpg";
+
 function Index() {
   return (
     <>
@@ -121,7 +119,7 @@ function Index() {
                 <div class="col-lg-3 col-md-6">
                   <div class="team-wrap-3 mb-30">
                     <div class="team-img">
-                      <img src={Team2} alt="img" />
+                      <img src={Team1} alt="img" />
                     </div>
                     <div class="team-content">
                       <h3>
