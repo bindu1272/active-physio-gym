@@ -31,7 +31,7 @@ function Index() {
               <div className="row">
                 <div className="col-sm-12 d-flex">
                     <div className="nav-info-section">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="/">
                   <img src={Logo} height={80} />
                 </a>
                   <button
@@ -86,12 +86,12 @@ function Index() {
                         Contact
                         </NavLink>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <Link className="nav-link book_btn" to="/Contact">
                         Book Online &nbsp; &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                     </div>

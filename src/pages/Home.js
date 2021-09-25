@@ -6,7 +6,8 @@ import TeamSection from "../components/TeamSection";
 import OurServicesSection from "../components/OurServicesSection";
 import MembershipSection from "../components/MembershipSection";
 import Modal from 'react-modal';
-import FreeMembership from "../components/FreeMembership";
+// import FreeMembership from "../components/FreeMembership";
+import JoinFormSection from "../components/JoinForm";
 import {Link} from "react-router-dom";
 
 function Index() {
@@ -21,7 +22,7 @@ function Index() {
         <SyncOutlined spin />
         </div> */}
 
-    <Modal
+    {/* <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         // style={customStyles}
@@ -31,10 +32,11 @@ function Index() {
         <div className="member-shop-form">
           <FreeMembership onClose={closeModal}/>
         </div>
-      </Modal>
+      </Modal> */}
 
       <Header />
       <Slider />
+      <JoinFormSection/>
       <AboutSection />
       <TeamSection />
       <OurServicesSection />
