@@ -86,12 +86,12 @@ function Index() {
                         Contact
                         </NavLink>
                       </li>
-                      {/* <li className="nav-item">
+                       <li className="nav-item">
                         <Link className="nav-link book_btn" to="/Contact">
                         Book Online &nbsp; &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
                         </Link>
-                      </li> */}
+                      </li>
                     </ul>
                   </div>
                     </div>

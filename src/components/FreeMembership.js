@@ -79,7 +79,7 @@ function FreeMembership({visible, onClose}) {
                     <i className="fa fa-check"></i> {success}
                 </div>
             )}
-            <MemberForm onFinishFailed={onFinishFailed} onFinish={onFinish} form={form} error={error} formLoading={loading}/>
+            <MemberForm onFinishFailed={onFinishFailed} onFinish={onFinish} form={form} error={error} formLoading={loading} showAboutUs={true}/>
                 <div className="bottom_info" >
                     <Button onClick={onClose} style={{marginRight: 8}}>
                         Cancel
