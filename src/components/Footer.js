@@ -11,7 +11,7 @@ return (
 					<div className="d-flex align-items-center justify-content-between">
 						<div>
 						<h1>Become a Membership</h1>
-							<p>Active Physio Gym delivers one-to-one care, independent exercise access 24/7.</p>
+							<p>Active Physio Gym delivers sports injury management and exercise experts, with a physiotherapist guided approach to health and fitness.</p>
 						</div>
 
 					<Link to="/Contact" className="btn-go">Book Now &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>

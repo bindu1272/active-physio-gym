@@ -11,7 +11,7 @@ function Index() {
                     <img src={Img1} className="img-fluid"/>
                 </div>
                 <div className="col-sm-7 d-flex justify-content-center flex-column">
-                    <h3 className="mb-4">Active Physio Gym</h3>
+                    <h3 className="mb-4 mt-4">Active Physio Gym</h3>
                     <h5 style={{fontSize:22, lineHeight:"36px"}}>Sports injury management and exercise experts, with a physiotherapist guided approach to health and fitness.</h5>
                     <h5 style={{fontSize:22, lineHeight:"36px"}}>Experienced staff with both local and national sports experience. </h5>
                     {/* <a href="#" className="readmore_btn mt-4">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> */}
