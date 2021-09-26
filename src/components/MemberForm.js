@@ -1,8 +1,8 @@
 import React from 'react';
-import {Col, Form, Input, Row, Spin} from 'antd';
+import {Col, Form, Input, Row, Spin, Select} from 'antd';
 import {CloseCircleOutlined,} from '@ant-design/icons';
 
-function MemberForm({onFinishFailed, onFinish, form, error, formLoading}) {
+function MemberForm({onFinishFailed, onFinish, form, error, formLoading, showAboutUs=false}) {
     console.log('error is ----', error)
 
     return (
@@ -84,6 +84,32 @@ function MemberForm({onFinishFailed, onFinish, form, error, formLoading}) {
                             </Form.Item>
                         </Col>
                     </Row>
+                    {
+                        showAboutUs && <Row gutter={16}>
+                            <Col span={24}>
+                                <Form.Item
+                                    name="How did you hear about us?"
+                                    label="How did you hear about us?"
+                                    rules={[
+                                        {
+                                            required: true,
+                                            message: 'please select',
+                                        },
+                                    ]}
+                                >
+                                    <Select defaultValue={'Google'}>
+                                        <Select.Option value="Google">Google</Select.Option>
+                                        <Select.Option value="Facebook">Facebook</Select.Option>
+                                        <Select.Option value="Flyer">Flyer</Select.Option>
+                                        <Select.Option value="Friend">Friend</Select.Option>
+                                        <Select.Option value="Other">Other</Select.Option>
+                                    </Select>
+
+                                </Form.Item>
+                            </Col>
+                        </Row>
+                    }
+
                 </Form>
             }
         </>

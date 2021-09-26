@@ -571,6 +571,11 @@ h6 {
   background-color: #00adef;
   padding: 50px 0;
   color: #fff;
+  @media(max-width:650px){
+    .d-flex{
+      display: block !important;
+    }
+  }
   h1 {
     color: #fff;
     font-weight: 800;
@@ -659,5 +664,24 @@ h6 {
   .anticon {
     color: #00adef;
     font-size: 30px;
+  }
+}
+
+.free_member_ship{
+  background-color: #00adef;
+  padding: 20px;
+  @media(min-width:1024px){
+    padding: 50px; 
+  }
+  h1{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+  }
+  .ant-form-item-label > label{
+    color: #fff;
+  }
+  .ant-btn-primary{
+    background-color: #111;
   }
 }

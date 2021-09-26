@@ -20,18 +20,41 @@
       //     height: 50px;
       //   }
       // }
-      .nav-info-section{
+      .nav-info-section {
         border-radius: 0;
       }
     }
   }
-  .nav-info-section{
-  padding: 0;
-  overflow: hidden;
-  border-radius: 2px;
+  .nav-info-section {
+    padding: 0;
+    overflow: hidden;
+    border-radius: 2px;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     width: 100%;
+  }
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.9);
+      top: 90px;
+      width: 100%;
+      left: 0px;
+      right: 0px;
+      height: 100vh;
+      margin: auto;
+      border-top: solid 4px #00adef;
+    }
+    .navbar-nav {
+      align-items: flex-start !important;
+      padding-left: 15px;
+    }
+  }
+  .navbar-toggler {
+    background-color: #00adef;
+    position: absolute;
+    right: 40px;
+    top: 25px;
   }
   .navigation {
     z-index: 9999;
@@ -44,18 +67,18 @@
     // box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
     position: absolute;
     // border-top: solid 4px #00adef;
-    .navbar-brand2{
-      img{
+    .navbar-brand2 {
+      img {
         transition: all 0.3s;
       }
     }
     .navbar_main {
       background: transparent;
       // padding: 10px 0 !important;
-      .navbar-collapse{
+      .navbar-collapse {
         justify-content: flex-end;
       }
-      .navbar-brand{
+      .navbar-brand {
         margin: 0 0 0 15px;
       }
       // background: #fff;
@@ -69,11 +92,11 @@
             font-family: "Rajdhani", sans-serif;
             padding: 10px 20px;
             text-transform: uppercase;
-            &.selected{
+            &.selected {
               color: #00adef;
             }
-            &:hover{
-              color: #00adef; 
+            &:hover {
+              color: #00adef;
             }
             &.book_btn {
               background: #00adef;
