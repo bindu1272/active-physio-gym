@@ -27,7 +27,7 @@ return (
                <div id="textbox-with-social-widget-6" class="footer-widget textbox-with-social">
                   <h4 class="widget-title"><span>ActivePhysioGym</span></h4>
                   <div class="text-with-social">
-                     <p>Active Physio Gym delivers one-to-one care, independent exercise access 24/7.</p>
+                     <p>Active Physio Gym delivers sports injury management and exercise experts, with a physiotherapist guided approach to health and fitness.</p>
                      {/*
                      <div class="social-wrapper style1"> <a href="https://www.facebook.com/physiogymphysio/" rel="nofollow" target="_blank" title="Facebook" class="share-facebook">Facebook</a><a href="http://instagram.com/physiogymphysio" rel="nofollow" target="_blank" title="Instagram" class="share-instagram">Instagram</a><a href="https://www.linkedin.com/company/physio-gym%E2%84%A2-physiotherapy/" rel="nofollow" target="_blank" title="Linkedin" class="share-linkedin">Linkedin</a>        	</div>
                      */}
