@@ -10,7 +10,7 @@ return (
 				<div className="col-sm-12">
 					<div className="d-flex align-items-center justify-content-between">
 						<div>
-						<h1>Become a Membership</h1>
+						<h1>Become a Member</h1>
 							<p>Active Physio Gym delivers sports injury management and exercise experts, with a physiotherapist guided approach to health and fitness.</p>
 						</div>
 
@@ -42,7 +42,7 @@ return (
                         Homebush, NSW, 2140
                      </p>
                      <p>Phone: 0478 496 444<br/>
-                        Email: info@activephysiogym.net.au
+                        Email: info@activephysiogym.com
                      </p>
                   </div>
                </div>
