@@ -44,12 +44,12 @@ function Index() {
             <div class="row">
               <div class="col-lg-4 col-md-6 mb-5">
                 <div class="team-wrap-3 mb-30">
-                  <h1>Management and rehab of complex sports injury </h1>
+                  <h1>Management and Rehab of Complex Sports Injury </h1>
                   <ul>
-                    <li>Management and rehab of complex sports injury </li>
+                    <li>Management and Rehab of Complex Sports Injury </li>
                     <li>
-                      Practised exercise prescription and collaborative goal
-                      setting
+                      Practised Exercise Prescription and Collaborative Goal
+                      Setting
                     </li>
                     <li>Supportive Environment </li>
                   </ul>
@@ -57,7 +57,7 @@ function Index() {
               </div>
               <div class="col-lg-4 col-md-6 mb-5">
                 <div class="team-wrap-3 mb-30">
-                  <h1>Group Exercise mentoring </h1>
+                  <h1>Group Exercise Mentoring </h1>
                   <ul>
                     <li>Functional Training </li>
                     <li>
@@ -73,9 +73,9 @@ function Index() {
                   <ul>
                     <li>Medicare Bulk Bill Physiotherapy (EPC) </li>
                     <li>
-                    Osteoarthritis assistance
+                    Osteoarthritis Assistance
                     </li>
-                    <li>Reduction of likelihood of developing chronic Illness </li>
+                    <li>Reduction of Likelihood of Developing Chronic Illness </li>
                   </ul>
                 </div>
               </div>
@@ -93,11 +93,11 @@ function Index() {
               </div>
               <div class="col-lg-4 col-md-6 mb-5">
                 <div class="team-wrap-3 mb-30">
-                  <h1>Pre/Post Surgery management  </h1>
+                  <h1>Pre/Post Surgery Management  </h1>
                   <ul>
                     <li>Guided Treatment </li>
                     <li>Collaboration with Surgeon and Doctor </li>
-                    <li>Reduced risk of post surgery complications  </li>
+                    <li>Reduced Risk of Post Surgery Complications  </li>
                     <li>Pain Management </li>
 
                   </ul>
@@ -109,7 +109,7 @@ function Index() {
                   <ul>
                     <li>Professional Advice and Education </li>
                     <li>Individualised and Targeted Exercise Prescription</li>
-                    <li>Hands on treatment </li>
+                    <li>Hands on Treatment </li>
                     <li>Dry Needling/Acupuncture</li>
                     <li>Joint Mobilisations </li>
 
