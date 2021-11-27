@@ -157,10 +157,10 @@ function Index() {
                         Certifications:{" "}
                       </h6>
                       <p>Allied Health Professional</p>
-                      <p>Diploma in fitness</p>
-                      <p>Diploma in remedial Massage</p>
+                      <p>Diploma in Fitness</p>
+                      <p>Diploma in Remedial Massage</p>
                       <p>Cert III / Cert IV - Fitness </p>
-                      <p>Diploma in Personal nutrition</p>
+                      <p>Diploma in Personal Nutrition</p>
                     </div>
                     <div className="col-sm-4">
                       <h6 style={{ fontSize: 18, fontWeight: "bold" }}>
@@ -170,25 +170,25 @@ function Index() {
                       <ul style={{ lineHeight: "50px" }}>
                         <li>Functional Training</li>
                         <li>Powerlifting </li>
-                        <li>Strength and conditioning</li>
-                        <li>Weight loss and body transformation</li>
+                        <li>Strength and Conditioning</li>
+                        <li>Weight Loss and Body Transformation</li>
                       </ul>
                     </div>
                   </div>
                   <p>
                     Kshitiz has more than ten years of experience as a Personal
-                    Trainer and group fitness instructor. He started
+                    Trainer and Group Fitness Instructor. He started
                     professional bodybuilding at an young age which later
                     developed his passion towards fitness and has been helping
                     people to be the best version of themselves. Kshitiz is a
-                    qualified Allied Health professional, has been working as a
-                    physio assistant for past two years. This extensive
+                    qualified Allied Health Professional, has been working as a
+                    Physio Assistant for past two years. This extensive
                     experience and qualification has been beneficial to all our
                     members while training.
                   </p>
                   <p>
-                    He is providing customised program, support and guidance for
-                    the members to achieve the results they deserve from their
+                    He is providing customised programs, support and guidance for
+                    our members to achieve the results they deserve from their
                     hard work. He helps clients with an education rather than
                     just short term results which will both help them to be in
                     best shape of their life and also providing them the tools
