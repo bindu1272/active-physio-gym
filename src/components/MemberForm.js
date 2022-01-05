@@ -80,7 +80,7 @@ function MemberForm({onFinishFailed, onFinish, form, error, formLoading, showAbo
                                     },
                                 ]}
                             >
-                                <Input.TextArea rows={4} size="large" placeholder="please enter Address"/>
+                                <Input.TextArea rows={4} size="large" placeholder="Please enter Address"/>
                             </Form.Item>
                         </Col>
                     </Row>

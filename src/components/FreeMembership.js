@@ -42,7 +42,7 @@ function FreeMembership({visible, onClose}) {
                 if (!validator.isMobilePhone(values[key]) || values[key].length < 10) {
                     specific = true;
                     flag = true;
-                    setError("Invalid Phone number");
+                    setError("Invalid Phone Number");
                 }
             }
         });
