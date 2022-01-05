@@ -76,7 +76,7 @@ function MemberForm({onFinishFailed, onFinish, form, error, formLoading, showAbo
                                 rules={[
                                     {
                                         required: true,
-                                        message: 'please enter Address',
+                                        message: 'Please enter Address',
                                     },
                                 ]}
                             >
