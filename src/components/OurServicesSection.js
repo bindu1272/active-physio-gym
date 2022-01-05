@@ -38,8 +38,11 @@ function Index() {
                     <div className="info_block">
                     <h1>Group Exercise Mentoring</h1>
                     <ul>
+                        <li>Group Personalised Training</li>
                         <li>Functional Training</li>
-                        <li>Pilates and Yoga</li>
+                        <li>Strength and Conditioning</li>
+                        <li>Weight Loss</li>
+                        <li>Special Classes (Yoga/Boxing)</li>
                       </ul>
                        <Link className="readmore_btn mt-4" to="/OurServices">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
                     </div>

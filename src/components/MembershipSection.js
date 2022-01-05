@@ -23,15 +23,14 @@ function Index() {
               >
                 Become a Member
               </h3>
-              <p>Physio Gym Membership at $22.95 per week*</p>
+              <p>Active Physio Gym Membership</p>
               <ul>
-                <li>24/7 or Staffed hours access</li>
-                <li>Physio Gym Exercise Software to assist</li>
-                <li>Zoned exercise space for efficiency and safety</li>
+                <li>Small Group Personalised Training</li>
+                <li>Personalised Approach</li>
+                <li>Guided Training According to your Fitness Goals</li>
               </ul>
               <p>
-                *Conditions and eligibility criteria apply, please see details
-                in store.
+                Affordable rates and flexible memberships
               </p>
             </div>
             <Link to="/Contact" className="readmore_btn mt-4 white-border">
