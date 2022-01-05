@@ -65,7 +65,7 @@ function Index() {
             <div class="row">
               <div class="col-xl-12 text-center mt-5">
                 <a href="/Team" class="readmore_btn mt-5 white-border">
-                  VIEW ALL TRAINER <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                  VIEW ALL TRAINERS <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
