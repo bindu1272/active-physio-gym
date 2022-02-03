@@ -1,6 +1,7 @@
 import React from "react";
-import Team1 from "../images/member-1.jpg";
-import Team3 from "../images/member-1.jpg";
+import Team1 from "../images/JosephNakhoul.png";
+import Team2 from "../images/MattS.png";
+import Team3 from "../images/KshitizK.png";
 
 function Index() {
   return (
@@ -37,7 +38,7 @@ function Index() {
               <div class="col-lg-4 col-md-6">
                 <div class="team-wrap-3 mb-30">
                   <div class="team-img">
-                    <img src={Team1} alt="img" />
+                    <img src={Team2} alt="img" />
                   </div>
                   <div class="team-content">
                     <h3>
