@@ -186,7 +186,7 @@ function Index() {
                   </Form.Item>
                 </div>
                 <Form.Item>
-                  <Button type="primary" htmlType="submit">
+                  <Button type="primary" htmlType="submit" disabled={loading}>
                     Send
                   </Button>
                 </Form.Item>

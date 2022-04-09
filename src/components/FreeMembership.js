@@ -84,7 +84,7 @@ function FreeMembership({visible, onClose}) {
                     <Button onClick={onClose} style={{marginRight: 8}}>
                         Cancel
                     </Button>
-                    <Button type="primary" htmlType="submit" form="basic" key="submit">
+                    <Button type="primary" htmlType="submit" form="basic" key="submit" disabled={loading}>
                         Join
                     </Button>
                 </div>
