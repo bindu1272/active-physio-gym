@@ -13,6 +13,7 @@ import Notifications from "./admin/Notifications";
 import ScrollToTop from "./setup/ScrollToTop";
 import Footer from "./components/Footer";
 import Logout from "./pages/Logout";
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route exact path="/" component={HomePage} />
             <Route path="/AboutUs" component={AboutUs} />
             <Route path="/Team" component={Team} />
+            <Route path="/Gallery" component={Gallery} />
             <Route path="/OurServices" component={Physiotheraphy} />
             <Route path="/Membership" component={Membership} />
             <Route path="/Contact" component={Contact} />

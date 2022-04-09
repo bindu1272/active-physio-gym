@@ -26,20 +26,23 @@ function Index() {
                   </div>
                   <div className="col-sm-4">
                      <div className=" info_block">
-                     <h1>Management and rehab of complex sports injury </h1>
+                     <h1>Management and Rehab of Complex Sports Injury </h1>
                       <ul>
-                        <li>Expert Assessment and treatment</li>
-                        <li>Practised exercise prescription...</li>
+                        <li>Expert Assessment and Treatment</li>
+                        <li>Practised Exercise Prescription...</li>
                       </ul>
                     <Link className="readmore_btn mt-4" to="/OurServices">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
                      </div>
                   </div>
                   <div className="col-sm-4">
                     <div className="info_block">
-                    <h1>Group Exercise mentoring</h1>
+                    <h1>Group Exercise Mentoring</h1>
                     <ul>
+                        <li>Group Personalised Training</li>
                         <li>Functional Training</li>
-                        <li>Pilates and Yoga</li>
+                        <li>Strength and Conditioning</li>
+                        <li>Weight Loss</li>
+                        <li>Special Classes (Yoga/Boxing)</li>
                       </ul>
                        <Link className="readmore_btn mt-4" to="/OurServices">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
                     </div>
@@ -49,7 +52,7 @@ function Index() {
                      <h1>Chronic Condition Management</h1>
                      <ul>
                         <li>Medicare Bulk Bill Physiotherapy (EPC)</li>
-                        <li>Osteoarthritis assistance</li>
+                        <li>Osteoarthritis Assistance</li>
                       </ul>
                     <Link className="readmore_btn mt-4" to="/OurServices">Read More &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
                      </div>

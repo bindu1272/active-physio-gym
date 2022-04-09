@@ -1,6 +1,7 @@
 import React from "react";
-import Team1 from "../images/member-1.jpg";
-import Team3 from "../images/member-1.jpg";
+import Team1 from "../images/JosephNakhoul.png";
+import Team2 from "../images/MattS.png";
+import Team3 from "../images/KshitizK.png";
 
 function Index() {
   return (
@@ -37,7 +38,7 @@ function Index() {
               <div class="col-lg-4 col-md-6">
                 <div class="team-wrap-3 mb-30">
                   <div class="team-img">
-                    <img src={Team1} alt="img" />
+                    <img src={Team2} alt="img" />
                   </div>
                   <div class="team-content">
                     <h3>
@@ -65,7 +66,7 @@ function Index() {
             <div class="row">
               <div class="col-xl-12 text-center mt-5">
                 <a href="/Team" class="readmore_btn mt-5 white-border">
-                  VIEW ALL TRAINER <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                  VIEW ALL TRAINERS <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                 </a>
               </div>
             </div>

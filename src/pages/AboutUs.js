@@ -1,5 +1,5 @@
 import React from 'react';
-import Img1 from "../images/pic5.jpg";
+import Img1 from "../images/slider-1.JPG";
 import Header from "../components/Header";
 import {Link} from "react-router-dom";
 

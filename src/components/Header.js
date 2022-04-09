@@ -72,6 +72,11 @@ function Index() {
                         </NavLink>
                       </li>
                       <li className="nav-item">
+                        <NavLink activeClassName="selected" className="nav-link" exact to="/Gallery">
+                          Gallery
+                        </NavLink>
+                      </li>
+                      <li className="nav-item">
                         <NavLink activeClassName="selected" className="nav-link" exact to="/OurServices">
                           Our Services
                         </NavLink>
