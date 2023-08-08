@@ -55,7 +55,7 @@ return (
                         {/*<li id="menu-item-1735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1735"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;  Exercise Login </a></li>*/}
                         {/*<li id="menu-item-1736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1736"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;  New Member Form</a></li>*/}
                         {/*<li id="menu-item-1732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1732"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;  Rules &amp; Etiquette</a></li>*/}
-                        <li id="menu-item-1731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1731"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;  Privacy Policy</a></li>
+                        <li id="menu-item-1731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1731"><a href="www.activephysiogym/PrivacyPolicy"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;  Privacy Policy</a></li>
                         <li id="menu-item-1733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1733"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;  Membership Terms</a></li>
                      </ul>
                   </div>
