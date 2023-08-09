@@ -14,6 +14,7 @@ import ScrollToTop from "./setup/ScrollToTop";
 import Footer from "./components/Footer";
 import Logout from "./pages/Logout";
 import Gallery from "./pages/Gallery";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             <Route path="/Dashboard" component={Dashboard} />
             <Route path="/Notifications" component={Notifications} />
             <Route path="/logout" component={Logout} />
+            <Route path="/PrivacyPolicy" component={PrivacyPolicy} />
           </ScrollToTop>
         </Switch>
         <Footer />
