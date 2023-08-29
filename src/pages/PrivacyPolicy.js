@@ -37,7 +37,7 @@ function Index() {
                 <div className="col-sm-6">
                     <h3 className="mb-4">Privacy Policy for Active Physio Gym</h3>
                     <p>At activephysiogym.com, accessible from www.activephysiogym.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by activephysiogym.com and how we use it. </p>
-                    <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us. Our Privacy Policy was created with the help of the <a href="https://www.generateprivacypolicy.com/">Privacy Policy Generator</a>.</p>
+                    <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
                     <p>We operate in Homebush on Parramatta road, and our services allow us to bring optimal health care to the local community, and patients of all ages, conditions and lifestyles. </p>
                
                     <h3 className="mb-4">Log Files</h3>
