@@ -25,7 +25,7 @@ function Index() {
                     <ul>
                         <li><Link to="/">Home</Link></li>
                         <li> <span> / </span> </li>
-                        <li>Privacy Policy</li>
+                        <li>About Us</li>
                     </ul>
                 </div>
             </div>
@@ -36,10 +36,9 @@ function Index() {
             <div className="row">
                 <div className="col-sm-6">
                     <h3 className="mb-4">Active Physio Gym</h3>
-
-<p>At activephysiogym.com, accessible from www.activephysiogym.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by activephysiogym.com and how we use it.</p>
-
-
+                    <p>Active Physio Gym is where exercise science meets exceptional health care, and delivers a management system to cater to your injury management and fitness. Our physiotherapists and trainers collaborate with a multidisciplinary approach, and possess the skillset to assist you on the path to improvements in strength, mobility and quality of life. </p>
+                    <p>Our ability to both diagnose and rehabilitate musculoskeletal injuries, related to all aspects of both sport and daily life, apply evidence based practice to assist you back to the life you love. </p>
+                    <p>We operate in Homebush on Parramatta road, and our services allow us to bring optimal health care to the local community, and patients of all ages, conditions and lifestyles. </p>
                 </div>
                 <div className="col-sm-6">
                     <img src={Img1} className="img-fluid rounded shadow p-2"/>
