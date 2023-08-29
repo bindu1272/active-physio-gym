@@ -29,11 +29,11 @@ function App() {
             <Route path="/OurServices" component={Physiotheraphy} />
             <Route path="/Membership" component={Membership} />
             <Route path="/Contact" component={Contact} />
+            <Route path="/PrivacyPolicy" component={PrivacyPolicy} />
             <Route path="/Admin" component={Admin} />
             <Route path="/Dashboard" component={Dashboard} />
             <Route path="/Notifications" component={Notifications} />
             <Route path="/logout" component={Logout} />
-            <Route path="/PrivacyPolicy" component={PrivacyPolicy} />
           </ScrollToTop>
         </Switch>
         <Footer />
