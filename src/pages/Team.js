@@ -141,33 +141,20 @@ function Index() {
                 </div>
               </div>
               <div class="col-lg-9 col-md-6">
-                <div class="wpb_wrapper">
-                  <h6>Group Fitness and Personalised Training</h6>
-                  <div className="row">
-                    <div className="col-sm-4">
-                      <h6 style={{ fontSize: 18, fontWeight: "bold" }}>
-                        {" "}
-                        Certifications:{" "}
-                      </h6>
-                      <p>Allied Health Professional</p>
-                      <p>Diploma in Fitness</p>
-                      <p>Diploma in Remedial Massage</p>
-                      <p>Cert III / Cert IV - Fitness </p>
-                      <p>Diploma in Personal Nutrition</p>
-                    </div>
-                    <div className="col-sm-4">
-                      <h6 style={{ fontSize: 18, fontWeight: "bold" }}>
-                        {" "}
-                        Specialitie(s):{" "}
-                      </h6>
-                      <ul style={{ lineHeight: "50px" }}>
-                        <li>Functional Training</li>
-                        <li>Powerlifting </li>
-                        <li>Strength and Conditioning</li>
-                        <li>Weight Loss and Body Transformation</li>
-                      </ul>
-                    </div>
-                  </div>
+<div class="wpb_wrapper">
+  <h2>Group Fitness and Personalised Training</h2>
+  <p>At Active Physio Gym, we offer a comprehensive range of group fitness classes and personalized training programs designed to meet your unique fitness goals. Our experienced trainers are dedicated to creating a supportive and energetic environment where you can work towards achieving optimal health and wellness.</p>
+  <div class="row">
+    <div class="col-md-6">
+      <h3>Our Classes</h3>
+      <p>Our group fitness classes cater to all levels of experience and fitness. From high-intensity interval training (HIIT) to yoga and pilates, our classes are designed to increase your fitness, improve your health, and give you an energizing workout experience.</p>
+    </div>
+    <div class="col-md-6">
+      <h3>Personalised Training</h3>
+      <p>For those seeking a more tailored approach, our personalized training programs are the perfect solution. Our certified personal trainers will work with you to create a customized plan that targets your specific needs, whether it's weight loss, muscle gain, or improving athletic performance.</p>
+    </div>
+  </div>
+</div>                    
 <p>
   At Active Physio Gym, our group fitness and personalized training classes stand out for their exceptional quality and effectiveness. We are dedicated to offering classes that cater to all fitness levels, ensuring everyone can find a workout that resonates with their fitness goals.
 </p>
