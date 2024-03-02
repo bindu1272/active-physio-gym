@@ -51,7 +51,7 @@ function Index() {
                     <h3>
                       <a href="# ">Joseph Nakhoul </a>
                     </h3>
-                    <span>Head Physiotherapist</span>
+                    <span>Physiotherapist</span>
                   </div>
                 </div>
               </div>
@@ -60,7 +60,7 @@ function Index() {
                   <h6>Joseph Nakhoul</h6>
                   <p>
                     {" "}
-                    <strong>Head Physiotherapist</strong>
+                    <strong>Physiotherapist</strong>
                   </p>
                   <p>
                     Joseph began his musculoskeletal physiotherapy career in
@@ -94,28 +94,19 @@ function Index() {
               <div class="row">
                 <div class="col-lg-9 col-md-6">
                   <div class="wpb_wrapper">
-                    <h6>Matthew Sayed </h6>
+                    <h6>Allied health</h6>
                     <p>
-                      <strong>Physiotherapist</strong>
+                      <strong>Physiotherapists</strong>
                     </p>
-                    <p>
-                      Matthew completed a Doctor of Physiotherapy at Macquarie
-                      University, following a Bachelor of Sport and Exercise
-                      Science at Australian Catholic University.{" "}
-                    </p>
-                    <p>
-                      Matthew has played many sports, but his passion is golf,
-                      which is definitely a love hate relationship.
-                    </p>
-                    <p>
-                      Matthew physiotherapy experience has seen him work
-                      alongside patients ranging from sports athletes, to
-                      hospitalised patients, and everything in between. Matthew
-                      brings an empathetic, and relaxed atmosphere to his
-                      patients in physiotherapy, and utilises techniques of
-                      manual therapy and exercise guidelines, to assist patients
-                      in accomplishing their goals.{" "}
-                    </p>
+<p>
+  Our team of physiotherapists at Active Physio Gym comine advanced education with a passion for helping others achieve their physical health goals. Each therapist brings a unique blend of expertise, experience, and a personal touch to their practice.
+</p>
+<p>
+  Our professionals are not just experts in their field; they are also compassionate individuals who understand the importance of a supportive and encouraging environment in the healing process. They are committed to providing personalized care that addresses the specific needs and goals of each patient.
+</p>
+<p>
+  At Active Physio Gym, we pride ourselves on our holistic approach to physiotherapy. Our team employs a range of techniques, from manual therapy to tailored exercise programs, to ensure the best possible outcomes for our patients. Whether you're an athlete looking to improve your performance, recovering from an injury, or seeking to improve your overall physical well-being, our physiotherapists are here to support you every step of the way.
+</p>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -125,7 +116,7 @@ function Index() {
                     </div>
                     <div class="team-content">
                       <h3>
-                        <a href="#">Matthew Sayed</a>
+                        <a href="#">Allied health - Physiotherapy</a>
                       </h3>
                       <span>Physiotherapist</span>
                     </div>
@@ -144,14 +135,14 @@ function Index() {
                   </div>
                   <div class="team-content">
                     <h3>
-                      <a href="# ">Kshitiz Khadka </a>
+                      <a href="# ">Active Physio Gym</a>
                     </h3>
                   </div>
                 </div>
               </div>
               <div class="col-lg-9 col-md-6">
                 <div class="wpb_wrapper">
-                  <h6>Kshitiz Khadka</h6>
+                  <h6>Group Fitness and Personalised Training</h6>
                   <div className="row">
                     <div className="col-sm-4">
                       <h6 style={{ fontSize: 18, fontWeight: "bold" }}>
@@ -177,30 +168,16 @@ function Index() {
                       </ul>
                     </div>
                   </div>
-                  <p>
-                    Kshitiz has more than ten years of experience as a Personal
-                    Trainer and Group Fitness Instructor. He started
-                    professional bodybuilding at an young age which later
-                    developed his passion towards fitness and has been helping
-                    people to be the best version of themselves. Kshitiz is a
-                    qualified Allied Health Professional, has been working as a
-                    Physio Assistant for past two years. This extensive
-                    experience and qualification has been beneficial to all our
-                    members while training.
-                  </p>
-                  <p>
-                    He is providing customised programs, support and guidance for
-                    our members to achieve the results they deserve from their
-                    hard work. He helps clients with an education rather than
-                    just short term results which will both help them to be in
-                    best shape of their life and also providing them the tools
-                    to maintain it for the rest of life.{" "}
-                  </p>
-                  <p>
-                    He works with every single individual on identifying the
-                    “why”. Developing personalised adherence strategies for
-                    their personality and lifestyle.
-                  </p>
+<p>
+  At Active Physio Gym, our group fitness and personalized training classes stand out for their exceptional quality and effectiveness. We are dedicated to offering classes that cater to all fitness levels, ensuring everyone can find a workout that resonates with their fitness goals.
+</p>
+<p>
+  Our certified trainers are experts in creating dynamic, engaging, and challenging workouts that not only boost your physical health but also uplift your spirit. They are committed to fostering a supportive and motivating environment where every member can thrive and push their boundaries.
+</p>
+<p>
+  The success of our programs is evident in the outstanding results our members achieve. Whether you're looking to lose weight, build strength, improve flexibility, or enhance your overall fitness, our group classes and personalized training sessions are designed to deliver measurable improvements. At Active Physio Gym, we're not just about workouts; we're about creating lasting changes that enhance your quality of life.
+</p>
+
                 </div>
               </div>
             </div>
