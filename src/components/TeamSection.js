@@ -31,7 +31,7 @@ function Index() {
                     <h3>
                       <a href="/Team">Joseph Nakhoul </a>
                     </h3>
-                    <span>Head Physiotherapist</span>
+                    <span>Physiotherapist</span>
                   </div>
                 </div>
               </div>
@@ -42,7 +42,7 @@ function Index() {
                   </div>
                   <div class="team-content">
                     <h3>
-                      <a href="/Team">Matthew Sayed </a>
+                      <a href="/Team">Physiotherapist</a>
                     </h3>
                     <span>Physiotherapist</span>
                   </div>
@@ -55,7 +55,7 @@ function Index() {
                   </div>
                   <div class="team-content">
                     <h3>
-                      <a href="/Team">Kshitiz Khadka</a>
+                      <a href="/Team">Functional Training</a>
                     </h3>
                     <span>Functional Training</span>
                   </div>
