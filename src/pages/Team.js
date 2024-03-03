@@ -165,7 +165,7 @@ function Index() {
   The success of our programs is evident in the outstanding results our members achieve. Whether you're looking to lose weight, build strength, improve flexibility, or enhance your overall fitness, our group classes and personalized training sessions are designed to deliver measurable improvements. At Active Physio Gym, we're not just about workouts; we're about creating lasting changes that enhance your quality of life.
 </p>
 
-                </div>
+          
               </div>
             </div>
           </div>
