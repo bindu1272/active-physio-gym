@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore virtual environment
+venv/
+
+# Ignore other unnecessary files
+*.Rhistory

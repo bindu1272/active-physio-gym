@@ -25,9 +25,19 @@ return (
          <div class="row add-clearfix">
             <div class="col-sm-6 col-md-3 clearfix">
                <div id="textbox-with-social-widget-6" class="footer-widget textbox-with-social">
-                  <h4 class="widget-title"><span>ActivePhysioGym</span></h4>
-                  <div class="text-with-social">
-                     <p>Active Physio Gym delivers sports injury management and exercise experts, with a physiotherapist guided approach to health and fitness.</p>
+
+<h4 class="widget-title">
+  <a href="https://www.rampphysioandfitness.com.au/" style={{ color: '#FFFFFF', textDecoration: 'none', fontSize: 'inherit', fontFamily: 'inherit', fontWeight: 'inherit' }}>
+    <span>Ramp Physio and Fitness</span>
+  </a>
+</h4>
+
+<div class="text-with-social">
+
+<p>
+   Were you searching for <a href="https://www.rampphysioandfitness.com.au/" style={{ color: '#3EBEFF', textDecoration: 'none' }}>Ramp Physio and Fitness</a>, an expert physiotherapist clinic offering top-tier sports injury management, physiotherapy, healthcare, gym and personal training? Explore services like NDIS physio support, chronic pain management, and group training classes. Visit <a href="https://www.rampphysioandfitness.com.au/" style={{ color: '#3EBEFF', textDecoration: 'none' }}>Ramp Physio and Fitness</a> to achieve your health and fitness goals today.
+</p>
+
                      {/*
                      <div class="social-wrapper style1"> <a href="https://www.facebook.com/physiogymphysio/" rel="nofollow" target="_blank" title="Facebook" class="share-facebook">Facebook</a><a href="http://instagram.com/physiogymphysio" rel="nofollow" target="_blank" title="Instagram" class="share-instagram">Instagram</a><a href="https://www.linkedin.com/company/physio-gym%E2%84%A2-physiotherapy/" rel="nofollow" target="_blank" title="Linkedin" class="share-linkedin">Linkedin</a>        	</div>
                      */}
@@ -48,18 +58,21 @@ return (
                </div>
             </div>
             <div class="col-sm-6 col-md-3 clearfix">
-               <div id="nav_menu-2" class="footer-widget widget_nav_menu">
-                  <h4 class="widget-title"><span>Quick Links</span></h4>
-                  <div class="menu-quick-links-container">
-                     <ul id="menu-quick-links" class="menu">
-                        {/*<li id="menu-item-1735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1735"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;  Exercise Login </a></li>*/}
-                        {/*<li id="menu-item-1736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1736"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;  New Member Form</a></li>*/}
-                        {/*<li id="menu-item-1732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1732"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;  Rules &amp; Etiquette</a></li>*/}
-                        <li id="menu-item-1731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1731"><a href="PrivacyPolicy"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;  Privacy Policy</a></li>
-                        <li id="menu-item-1733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1733"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;  Membership Terms</a></li>
-                     </ul>
-                  </div>
-               </div>
+
+<div id="nav_menu-2" class="footer-widget widget_nav_menu">
+   <h4 class="widget-title"><span>Quick Links</span></h4>
+   <div class="menu-quick-links-container">
+      <ul id="menu-quick-links" class="menu">
+         {/*<li id="menu-item-1735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1735"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;  Exercise Login </a></li>*/}
+         {/*<li id="menu-item-1736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1736"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;  New Member Form</a></li>*/}
+         {/*<li id="menu-item-1732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1732"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;  Rules &amp; Etiquette</a></li>*/}
+         <li id="menu-item-1731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1731"><a href="PrivacyPolicy"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Privacy Policy</a></li>
+         <li id="menu-item-1733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1733"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Membership Terms</a></li>
+         <li id="menu-item-1734" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1734"><a href="https://www.rampphysioandfitness.com.au/"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Ramp Physio and Fitness</a></li>
+      </ul>
+   </div>
+</div>
+
             </div>
             <div class="col-sm-6 col-md-3 clearfix">
                <div id="mc4wp_form_widget-2" class="footer-widget widget_mc4wp_form_widget">

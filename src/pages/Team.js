@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "../components/Header";
-import {Link} from "react-router-dom";
-import Team1 from "../images/JosephNakhoul.png";
-import Team2 from "../images/MattS.png";
-import Team3 from "../images/KshitizK.png";
+import { Link } from "react-router-dom";
+import Team1 from "../images/APGpurple.png";
+import Team2 from "../images/APGpurple.png";
+import Team3 from "../images/APGpurple.png";
 
 function Index() {
   return (
@@ -35,137 +35,92 @@ function Index() {
           </div>
         </div>
       </div>
+
       <section className="team_section">
-        <div
-          class="team-area-3 bg-fix pt-5"
-          style={{ backgroundImage: "none", backgroundColor: "#fff" }}
-        >
-          <div class="container pt-4 pb-5">
-            <div class="row">
-              <div class="col-lg-3 col-md-6 mb-5">
-                <div class="team-wrap-3 mb-30">
-                  <div class="team-img">
-                    <img src={Team1} alt="Team" />
-                  </div>
-                  <div class="team-content">
-                    <h3>
-                      <a href="# ">Joseph Nakhoul </a>
-                    </h3>
-                    <span>Physiotherapist</span>
-                  </div>
+        {/* Allied Health & Personal Training Section */}
+        <div className="container pt-4 pb-5">
+          <div className="row align-items-center">
+            <div className="col-lg-3 col-md-6 mb-4">
+              <div className="team-wrap-3">
+                <div className="team-img" style={{ maxWidth: "100%", textAlign: "center" }}>
+                  <img src={Team1} alt="Allied Health" style={{ width: "100%", maxWidth: "200px" }} />
+                </div>
+                <div className="team-content mt-3">
+                  <h3>
+                    <a href="#">Allied Health & Physio</a>
+                  </h3>
+                  <span>Personal Training</span>
                 </div>
               </div>
-              <div class="col-lg-9 col-md-6">
-                <div class="wpb_wrapper">
-                  <h6>Joseph Nakhoul</h6>
-                  <p>
-                    {" "}
-                    <strong>Physiotherapist</strong>
-                  </p>
-                  <p>
-                    Joseph began his musculoskeletal physiotherapy career in
-                    2013, following graduating from The Australian Catholic
-                    University. Since then, he has worked alongside South Sydney
-                    Rabbitohs, and has a passion for private practice
-                    physiotherapy.{" "}
-                  </p>
-                  <p>
-                    Joseph is a proud father to 3 beautiful children. He also
-                    has a love of rugby league, and previously competed at a
-                    semi-professional level.{" "}
-                  </p>
-                  <p>
-                    Joseph prides himself on his ability to relate with his
-                    patients. Through his sporting career, Joseph returned from
-                    over 20 injuries. Combined with his knowledge of both
-                    athletic rehabilitation and manual therapy skills, Joseph is
-                    the perfect partner to assist you with managing your
-                    injuries. Joseph’s empowering and confident approach to
-                    physiotherapy practice, will allow you to feel supported and
-                    safe on your health care journey.{" "}
-                  </p>
+            </div>
+            <div className="col-lg-9 col-md-6">
+              <div className="wpb_wrapper">
+                <h6>Allied Health & Physio</h6>
+                <p><strong>Our Physiotherapists</strong></p>
+                <p>Our team at Active Physio Gym combines extensive knowledge in musculoskeletal and sports physiotherapy with a deep commitment to helping you achieve your health and fitness goals. Each therapist and trainer is equipped with advanced skills to deliver personalized support in both rehabilitation and fitness training.</p>
+                <p>At Active Physio Gym, we pride ourselves on our holistic approach. We use tailored exercise programs, manual therapy, and personalized training sessions to ensure the best results for our clients. Whether you're aiming for athletic performance, recovering from an injury, or working towards improved wellness, our team provides the expertise and encouragement to support your journey.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* NDIS, WorkCover, and Physiotherapy Team Section */}
+        <div className="container pt-4 pb-5" style={{ backgroundColor: "#f1f6fc" }}>
+          <div className="row align-items-center">
+            <div className="col-lg-9 col-md-6">
+              <div className="wpb_wrapper">
+                <h2>NDIS, WorkCover, and Physiotherapy Team</h2>
+                <p>At Active Physio Gym, we are proud to support NDIS and WorkCover patients through specialized physiotherapy services. Our team is dedicated to providing accessible and effective treatment plans that help clients manage pain, enhance mobility, and achieve greater independence. We work closely with NDIS participants and WorkCover clients to deliver personalized care aligned with each person's unique needs.</p>
+                <p>Our experienced physiotherapists understand the complexities of WorkCover cases and NDIS requirements, and they are skilled in crafting tailored treatment plans to address these specific needs. We aim to empower each client with effective rehabilitation, education, and support to improve their quality of life and return to work where possible.</p>
+                <p>From acute injury recovery to chronic condition management, our physiotherapy services are designed to offer a comprehensive solution for those under NDIS and WorkCover. Our commitment is to ensure that each patient receives the highest standard of care, helping them regain strength, mobility, and confidence in their daily activities.</p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 mb-4">
+              <div className="team-wrap-3">
+                <div className="team-img" style={{ maxWidth: "100%", textAlign: "center" }}>
+                  <img src={Team2} alt="NDIS and WorkCover Physiotherapy" style={{ width: "100%", maxWidth: "200px" }} />
+                </div>
+                <div className="team-content mt-3">
+                  <h3>
+                    <a href="#">NDIS & WorkCover Physiotherapy</a>
+                  </h3>
+                  <span>Physiotherapy Team</span>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div style={{ backgroundColor: "#f1f6fc" }}>
-            <div class="container pt-5 pb-5">
-              <div class="row">
-                <div class="col-lg-9 col-md-6">
-                  <div class="wpb_wrapper">
-                    <h6>Allied health</h6>
-                    <p>
-                      <strong>Physiotherapists</strong>
-                    </p>
-<p>
-  Our team of physiotherapists at Active Physio Gym comine advanced education with a passion for helping others achieve their physical health goals. Each therapist brings a unique blend of expertise, experience, and a personal touch to their practice.
-</p>
-<p>
-  Our professionals are not just experts in their field; they are also compassionate individuals who understand the importance of a supportive and encouraging environment in the healing process. They are committed to providing personalized care that addresses the specific needs and goals of each patient.
-</p>
-<p>
-  At Active Physio Gym, we pride ourselves on our holistic approach to physiotherapy. Our team employs a range of techniques, from manual therapy to tailored exercise programs, to ensure the best possible outcomes for our patients. Whether you're an athlete looking to improve your performance, recovering from an injury, or seeking to improve your overall physical well-being, our physiotherapists are here to support you every step of the way.
-</p>
-                  </div>
+        {/* Group Fitness and Personalized Training Section */}
+        <div className="container pt-4 pb-5">
+          <div className="row align-items-center">
+            <div className="col-lg-3 col-md-6 mb-4">
+              <div className="team-wrap-3">
+                <div className="team-img" style={{ maxWidth: "100%", textAlign: "center" }}>
+                  <img src={Team3} alt="Group Fitness and Training" style={{ width: "100%", maxWidth: "200px" }} />
                 </div>
-                <div class="col-lg-3 col-md-6">
-                  <div class="team-wrap-3 mb-30">
-                    <div class="team-img">
-                      <img src={Team2} alt="img" />
-                    </div>
-                    <div class="team-content">
-                      <h3>
-                        <a href="#">Allied health - Physiotherapy</a>
-                      </h3>
-                      <span>Physiotherapist</span>
-                    </div>
-                  </div>
+                <div className="team-content mt-3">
+                  <h3>
+                    <a href="#">Active Physio Gym</a>
+                  </h3>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="container pt-5 pb-5">
-            <div class="row">
-              <div class="col-lg-3 col-md-6 mb-5">
-                <div class="team-wrap-3 mb-30">
-                  <div class="team-img">
-                    <img src={Team3} alt="Team" />
+            <div className="col-lg-9 col-md-6">
+              <div className="wpb_wrapper">
+                <h2>Group Fitness and Personal Training</h2>
+                <p>At Active Physio Gym, we offer a comprehensive range of group fitness classes and personalized training programs designed to meet your unique fitness goals. Our experienced trainers are dedicated to creating a supportive and energetic environment where you can work towards achieving optimal health and wellness.</p>
+                <div className="row">
+                  <div className="col-md-6">
+                    <h3>Our Classes</h3>
+                    <p>Our group fitness classes cater to all levels of experience and fitness. From high-intensity interval training (HIIT) to yoga and pilates, our classes are designed to increase your fitness, improve your health, and give you an energizing workout experience.</p>
                   </div>
-                  <div class="team-content">
-                    <h3>
-                      <a href="# ">Active Physio Gym</a>
-                    </h3>
+                  <div className="col-md-6">
+                    <h3>Personalized Training</h3>
+                    <p>For those seeking a more tailored approach, our personalized training programs are the perfect solution. Our certified personal trainers will work with you to create a customized plan that targets your specific needs, whether it's weight loss, muscle gain, or improving athletic performance.</p>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-9 col-md-6">
-<div class="wpb_wrapper">
-  <h2>Group Fitness and Personalised Training</h2>
-  <p>At Active Physio Gym, we offer a comprehensive range of group fitness classes and personalized training programs designed to meet your unique fitness goals. Our experienced trainers are dedicated to creating a supportive and energetic environment where you can work towards achieving optimal health and wellness.</p>
-  <div class="row">
-    <div class="col-md-6">
-      <h3>Our Classes</h3>
-      <p>Our group fitness classes cater to all levels of experience and fitness. From high-intensity interval training (HIIT) to yoga and pilates, our classes are designed to increase your fitness, improve your health, and give you an energizing workout experience.</p>
-    </div>
-    <div class="col-md-6">
-      <h3>Personalised Training</h3>
-      <p>For those seeking a more tailored approach, our personalized training programs are the perfect solution. Our certified personal trainers will work with you to create a customized plan that targets your specific needs, whether it's weight loss, muscle gain, or improving athletic performance.</p>
-    </div>
-  </div>
-</div>                    
-<p>
-  At Active Physio Gym, our group fitness and personalized training classes stand out for their exceptional quality and effectiveness. We are dedicated to offering classes that cater to all fitness levels, ensuring everyone can find a workout that resonates with their fitness goals.
-</p>
-<p>
-  Our certified trainers are experts in creating dynamic, engaging, and challenging workouts that not only boost your physical health but also uplift your spirit. They are committed to fostering a supportive and motivating environment where every member can thrive and push their boundaries.
-</p>
-<p>
-  The success of our programs is evident in the outstanding results our members achieve. Whether you're looking to lose weight, build strength, improve flexibility, or enhance your overall fitness, our group classes and personalized training sessions are designed to deliver measurable improvements. At Active Physio Gym, we're not just about workouts; we're about creating lasting changes that enhance your quality of life.
-</p>
-
-          
+                <p>Our certified trainers are experts in creating dynamic, engaging, and challenging workouts that boost physical health while uplifting the spirit. We’re dedicated to providing classes that cater to all fitness levels and promoting lasting, positive changes that enhance quality of life.</p>
               </div>
             </div>
           </div>
