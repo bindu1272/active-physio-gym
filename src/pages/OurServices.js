@@ -59,7 +59,7 @@ function Index() {
                 <div class="team-wrap-3 mb-30">
                   <h1>Group Exercise Mentoring </h1>
                   <ul>
-                    <li>Functional Training </li>
+                    <li>Physiotherapy Functional Training </li>
                     <li>
                     Pilates and Yoga
                     </li>
@@ -73,7 +73,7 @@ function Index() {
                   <ul>
                     <li>Medicare Bulk Bill Physiotherapy (EPC) </li>
                     <li>
-                    Osteoarthritis Assistance
+                    Physiotherapy Osteoarthritis Assistance
                     </li>
                     <li>Reduction of Likelihood of Developing Chronic Illness </li>
                   </ul>

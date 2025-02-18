@@ -16,7 +16,7 @@ function Index() {
               <div className="col-xl-12">
                 <div className="section-title-2 text-center">
                   <h3 className="m-auto p-0 text-white mb-4 pb-4">
-                    We Have an Expert Team of Phjysiotherapists and Trainers
+                    We Have an Expert Team of Physiotherapists and Trainers
                   </h3>
                 </div>
               </div>
@@ -26,13 +26,13 @@ function Index() {
               <div className="col-lg-4 col-md-6">
                 <div className="team-wrap-3 mb-30">
                   <div className="team-img">
-                    <img src={Team1} alt="Personal Training" />
+                    <img src={Team1} alt="Personalised Training" />
                   </div>
                   <div className="team-content">
                     <h3>
                       <a href="/Team">Personal Training</a>
                     </h3>
-                    <span>Personal Training: One on One Coaching and Support</span>
+                    <span>Personalised Training: One on One Physio Coaching and Support</span>
                   </div>
                 </div>
               </div>
@@ -58,7 +58,7 @@ function Index() {
                     <h3>
                       <a href="/Team">Functional Training</a>
                     </h3>
-                    <span>Functional Training: gym and classes</span>
+                    <span>Physiotherapy Functional Training: exercise and physio gym classes</span>
                   </div>
                 </div>
               </div>

@@ -87,7 +87,7 @@ function Index() {
 
                         <li className="nav-item">
                           <NavLink activeClassName="selected" className="nav-link" exact to="/Membership">
-                            Gym Membership
+                            Physio Gym
                           </NavLink>
                         </li>
                         <li className="nav-item">

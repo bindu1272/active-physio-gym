@@ -108,16 +108,16 @@ function Index() {
             </div>
             <div className="col-lg-9 col-md-6">
               <div className="wpb_wrapper">
-                <h2>Group Fitness and Personal Training</h2>
-                <p>At Active Physio Gym, we offer a comprehensive range of group fitness classes and personalized training programs designed to meet your unique fitness goals. Our experienced trainers are dedicated to creating a supportive and energetic environment where you can work towards achieving optimal health and wellness.</p>
+                <h2>Group Physio Fitness and Personal Training</h2>
+                <p>At Active Physio Gym, we offer a comprehensive range of physiotherapy group fitness classes and personalized training programs designed to meet your unique fitness goals. Our experienced trainers are dedicated to creating a supportive and energetic environment where you can work towards achieving optimal health and wellness.</p>
                 <div className="row">
                   <div className="col-md-6">
                     <h3>Our Classes</h3>
-                    <p>Our group fitness classes cater to all levels of experience and fitness. From high-intensity interval training (HIIT) to yoga and pilates, our classes are designed to increase your fitness, improve your health, and give you an energizing workout experience.</p>
+                    <p>Our group fitness classes acater to all levels of experience and fitness. From high-intensity interval training (HIIT) to yoga and pilates, our classes are designed to increase your fitness, improve your health, and give you an energizing workout experience.</p>
                   </div>
                   <div className="col-md-6">
                     <h3>Personalized Training</h3>
-                    <p>For those seeking a more tailored approach, our personalized training programs are the perfect solution. Our certified personal trainers will work with you to create a customized plan that targets your specific needs, whether it's weight loss, muscle gain, or improving athletic performance.</p>
+                    <p>For those seeking a more tailored approach, our physiotherapy designed personalized training programs are the perfect solution. Our certified personal trainers will work with you to create a customized plan that targets your specific needs, whether it's weight loss, muscle gain, or improving athletic performance.</p>
                   </div>
                 </div>
                 <p>Our certified trainers are experts in creating dynamic, engaging, and challenging workouts that boost physical health while uplifting the spirit. We’re dedicated to providing classes that cater to all fitness levels and promoting lasting, positive changes that enhance quality of life.</p>

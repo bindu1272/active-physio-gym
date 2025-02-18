@@ -36,7 +36,7 @@ function Index() {
             <div className="row">
                 <div className="col-sm-6">
                     <h3 className="mb-4">Active Physio Gym</h3>
-                    <p>Active Physio Gym is where exercise science meets exceptional health care, and delivers a management system to cater to your injury management and fitness. Our physiotherapists and trainers collaborate with a multidisciplinary approach, and possess the skillset to assist you on the path to improvements in strength, mobility and quality of life. </p>
+                    <p>Active Physio Gym is where physiotherapy and exercise science meets exceptional health care, and delivers a management system to cater to your injury management and fitness. Our physiotherapists and trainers collaborate with a multidisciplinary approach, and possess the skillset to assist you on the path to improvements in strength, mobility and quality of life. </p>
                     <p>Our ability to both diagnose and rehabilitate musculoskeletal injuries, related to all aspects of both sport and daily life, apply evidence based practice to assist you back to the life you love. </p>
                     <p>We operate in Homebush on Parramatta road, and our services allow us to bring optimal health care to the local community, and patients of all ages, conditions and lifestyles. </p>
                 </div>

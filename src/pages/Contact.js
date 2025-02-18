@@ -237,7 +237,7 @@ function Index() {
                   <div class="content-part">
                     <h4>Trading Hours</h4>
                     <span>Monday – Sunday</span> &nbsp; &nbsp;
-                    <span>5:00am – 10:00pm</span>
+                    <span>5:00am – 9:00pm</span>
                   </div>
                 </div>
                 <div class="info-wrap">

@@ -2,9 +2,13 @@ import React from "react";
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
-import slider1 from "../images/slider-1.JPG";
-import slider2 from "../images/slider-2.JPG";
-import slider3 from "../images/slider-3.JPG";
+import slider1 from "../images/slider-2.JPG";
+import slider2 from "../images/slider-3.JPG";
+import slider3 from "../images/slider-1.JPG";
+import slider4 from "../images/slider-1_better.JPG";
+import slider5 from "../images/slider03-2-old.jpg";
+import slider6 from "../images/slide5.jpg";
+import slider7 from "../images/slider-3.JPG";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
