@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {Button, Form, Input} from "antd";
-import Logo from "../images/logo.svg";
+import Logo from "../images/logo.png";
 import {postServerAction} from "../common/actions";
 import {useHistory} from "react-router-dom";
 import _ from 'lodash';

@@ -3,7 +3,7 @@ import {Link, useHistory} from "react-router-dom";
 import {Avatar, Dropdown, Layout, Menu, Tooltip} from "antd";
 import {DownOutlined, UserOutlined} from '@ant-design/icons';
 
-import Logo from "../images/logo.svg";
+import Logo from "../images/logo.png";
 
 const {Header, Content, Footer} = Layout;
 

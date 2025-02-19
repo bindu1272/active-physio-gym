@@ -111,3 +111,39 @@ venv/
 
 # Ignore other unnecessary files
 *.Rhistory
+
+
+# Build output directories
+dist/
+build/
+.next/
+.nuxt/
+.vuepress/dist
+
+# Dependency directories
+node_modules/
+bower_components/
+jspm_packages/
+
+# Temporary and cached files
+.cache/
+.nyc_output/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.fusebox/
+.serverless/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Other generated files
+*.log
+*.tgz
+*.pid
+*.seed
+*.pid.lock
+.yarn-integrity
+.env
+.env.test

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Logo from "../images/logo.svg";
+import Logo from "../images/logo.png";
 import { Link, NavLink } from "react-router-dom";
 
 function Index() {
